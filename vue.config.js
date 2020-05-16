@@ -5,6 +5,9 @@ module.exports = {
       rtlSupport: false,
     },
   },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/msp-fe/'
+    : '/',
   transpileDependencies: [
     'quasar',
   ],

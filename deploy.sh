@@ -2,11 +2,13 @@
 #!/usr/bin/env sh
 
 ## Set git users to the commit we are building from
-git config user.name "$(git --no-pager log --format=format:'%an' -n 1)"
-git config user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
+git config user.name "$GITHUB_ACTOR"
+git config user.email "deploy@example.it"
 
 # abort on errors
 set -e
+
+yarn
 
 # build
 yarn build
@@ -25,7 +27,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/MarcoCilona/msp-fe.git master:gh-pages
+git push -f https://github.com/MarcoCilona/msp-fe.git master:add-deploy
 
 cd -
 #

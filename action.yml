@@ -1,2 +1,0 @@
-name: 'Setup gh-pages branch'
-description: 'Creates a gh-pages branch and mounts it on the target git checkout'

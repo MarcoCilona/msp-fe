@@ -52,3 +52,11 @@ $directions: (
     }
   }
 };
+
+// Content alignment
+$justifyContentValues: (center, flex-start, flex-end);
+@each $value in $justifyContentValues {
+  .justify-#{$value} {
+    justify-content: #{$value};
+  }
+}

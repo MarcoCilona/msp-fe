@@ -48,18 +48,8 @@ export default class Home extends Vue {
     margin-left: 14%;
     margin-bottom: 40px;
     position: absolute;
-    width: 100%;
+    width: -webkit-fill-available;
     z-index: 1;
-
-    button {
-      background-color: #06a729;
-      border: unset;
-      color: #f7f7f7;
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin-top: 20px;
-      padding: 5px 20px;
-    }
 
     &__header {
       align-items: flex-start;
@@ -79,8 +69,9 @@ export default class Home extends Vue {
         width: 100%;
         text-align: left;
         background-color: #0fb132;
-        font-size: 3rem;
-        border-radius: 5px;
+        font-size: 2rem;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
         padding-left: 10px;
         margin-top: 5px;
       }
@@ -124,6 +115,18 @@ export default class Home extends Vue {
   }
 }
 
+@include respond-above(xs) {
+  .home-page-carousel {
+    &__catchphrase {
+      &__header {
+        &__subtitle {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
 @include respond-above(sm) {
   .sections-shortcuts {
     display: inline-flex;
@@ -142,7 +145,7 @@ export default class Home extends Vue {
   .sections-shortcuts {
     &__shortcut {
       margin: 0 15px;
-      }
+    }
   }
 }
 </style>

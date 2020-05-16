@@ -22,7 +22,7 @@ import {
   QList,
   QItem,
   QItemSection,
-  QItemLabel,
+  QItemLabel
 } from 'quasar';
 
 Vue.use(Quasar, {

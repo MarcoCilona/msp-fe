@@ -1,7 +1,25 @@
 <template lang="pug">
 div(id='app')
   router-view
+  Footer.mt-13
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+
+import Footer from '@/views/Footer.vue';
+
+@Component(
+  {
+    components: {
+      Footer
+    }
+  }
+)
+export default class App extends Vue {
+
+}
+</script>
 
 <style lang="scss">
 #app {

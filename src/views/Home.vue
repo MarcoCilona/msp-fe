@@ -29,7 +29,7 @@ import Usage from '@/views/Home/Usage.vue';
   }
 })
 export default class Home extends Vue {
-  shorcutsList: string[] = ['Tessuti', 'Poliuretano', 'Gomme e materiali isolanti diversi', 'Materia plastiche'];
+  shorcutsList: string[] = ['Tessuti', 'Poliuretano', 'Gomme e materiali isolanti diversi', 'Materie plastiche'];
   slide: number = 1;
 
   handleProductClick(product: string) {

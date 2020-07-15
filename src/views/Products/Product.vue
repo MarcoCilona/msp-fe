@@ -1,8 +1,8 @@
 <template lang="pug">
 div
   div.product-header
-    img.product-image(src='https://cdn.quasar.dev/img/mountains.jpg')
-    span.product-header__title {{ product }}
+    img.product-image(src='@/assets/unnamed.jpg')
+    span.product-header__title {{ selected }}
   .content
     .content__left-column
       q-tree(:nodes='productTree', :expanded.sync="expanded", :selected="selected", node-key='label', @update:selected='handleSelected')
@@ -41,6 +41,8 @@ export default class Product extends Vue {
 </script>
 
 <style lang="scss" scoped>
+@import '@/styles/mixins.scss';
+
 .content {
   display: flex;
   flex-direction: row;
@@ -48,12 +50,12 @@ export default class Product extends Vue {
   &__left-column {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 45%;
   }
 
   &__right-column {
     text-align: left;
-    width: 70%;
+    width: 55%;
   }
 }
 
@@ -67,18 +69,30 @@ export default class Product extends Vue {
     color: white;
     font-size: 3rem;
     left: 0;
-    margin-left: 30%;
+    margin-left: 29%;
     padding-left: 30px;
     position: absolute;
     text-align: left;
     top: 65%;
-    width: calc(100vw - 30%);
+    width: calc(100vw - 29%);
   }
 }
 
 .product-image {
-  height: 400px;
+  height: 300px;
   width: 100%;
+}
+
+@include respond-above(xs) {
+  .content {
+    &__left-column {
+      width: 30%;
+    }
+
+    &__right-column {
+      width: 70%;
+    }
+  }
 }
 </style>
 

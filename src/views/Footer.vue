@@ -49,6 +49,7 @@ export default class Footer extends Vue {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex-shrink: 0;
   justify-content: space-between;
   padding: 20px 15px;
   width: 100%;

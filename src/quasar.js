@@ -22,7 +22,8 @@ import {
   QList,
   QItem,
   QItemSection,
-  QItemLabel
+  QItemLabel,
+  QTree
 } from 'quasar';
 
 Vue.use(Quasar, {
@@ -44,6 +45,7 @@ Vue.use(Quasar, {
     QItem,
     QItemSection,
     QItemLabel,
+    QTree
   },
   directives: {
   },

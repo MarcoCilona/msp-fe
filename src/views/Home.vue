@@ -12,7 +12,7 @@ div
       q-carousel-slide(:name='1', img-src='https://cdn.quasar.dev/img/mountains.jpg')
       q-carousel-slide(:name='2', img-src='https://cdn.quasar.dev/img/parallax1.jpg')
   .sections-shortcuts
-    .sections-shortcuts__shortcut(v-for='(shortcut, index) in shorcutsList', :key='index')
+    .sections-shortcuts__shortcut(v-for='(shortcut, index) in shorcutsList', :key='index', @click='handleProductClick(shortcut)')
       img(src='')
       h5 {{ shortcut }}
       p.sections-shortcuts__shortcut__description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt magna aliqua. Quis ipsum suspendisse ultrices gravida.
@@ -31,6 +31,12 @@ import Usage from '@/views/Home/Usage.vue';
 export default class Home extends Vue {
   shorcutsList: string[] = ['Tessuti', 'Poliuretano', 'Gomme e materiali isolanti diversi', 'Materia plastiche'];
   slide: number = 1;
+
+  handleProductClick(product: string) {
+    this.$router.push({
+      path: `/product/${product}`
+    });
+  }
 }
 </script>
 

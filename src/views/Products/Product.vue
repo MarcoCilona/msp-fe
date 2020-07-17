@@ -34,6 +34,8 @@ export default class Product extends Vue {
   }
 
   handleSelected($event: string) {
+    if (!$event) return;
+
     this.selected = $event;
     this.selectedProductText = products[this.selected];
   }
@@ -67,14 +69,14 @@ export default class Product extends Vue {
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     left: 0;
-    margin-left: 29%;
+    margin-left: 10%;
     padding-left: 30px;
     position: absolute;
     text-align: left;
-    top: 65%;
-    width: calc(100vw - 29%);
+    bottom: 18%;
+    width: calc(100vw - 10%);
   }
 }
 
@@ -93,6 +95,14 @@ export default class Product extends Vue {
       width: 70%;
     }
   }
+
+  .product-header {
+    &__title {
+      font-size: 3rem;
+      margin-left: 29%;
+      width: calc(100vw - 29%);
+    }
+}
 }
 </style>
 

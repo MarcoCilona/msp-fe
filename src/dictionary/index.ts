@@ -11,6 +11,102 @@ export const subProducts: any = {
 };
 
 export const subTrees: any = {
+  'Gomme e materiali isolanti diversi': {
+    children: [
+      {
+        children: [
+          {
+            label: 'Compatta'
+          },
+          {
+            label: 'Espansa'
+          }
+        ],
+        label: 'Gomma siliconica'
+      },
+      {
+        label: 'Altre gomme',
+      },
+      {
+        label: 'Bakelite',
+      },
+      {
+        label: 'Vetroresina',
+      },
+      {
+        label: 'Isolanti in fibra di vetro'
+      },
+      {
+        label: 'Altri'
+      }
+    ],
+    label: 'Gomme e materiali isolanti diversi',
+  },
+  'Materie plastiche': {
+    children: [
+      {
+        children: [
+          {
+            label: 'Semilavorati'
+          },
+          {
+            label: 'Taglieri e ceppi'
+          }
+        ],
+        label: 'Polietilene'
+      },
+      {
+        label: 'Poliammidi - PVC - POM - PP',
+      },
+      {
+        label: 'PTFE',
+      },
+      {
+        label: 'Policarbonato',
+      },
+      {
+        label: 'Metacrilato'
+      },
+      {
+        label: 'PVC Espanso'
+      }
+    ],
+    label: 'Materie plastiche',
+  },
+  Poliuretano: {
+    children: [
+      {
+        children: [
+          {
+            label: 'Semilavorati'
+          },
+          {
+            label: 'Estrattiva'
+          },
+          {
+            label: 'Sgombraneve'
+          },
+          {
+            label: 'Agricoltura e zootecnica'
+          },
+          {
+            label: 'Industria edile'
+          },
+          {
+            label: 'Applicazioni meccaniche'
+          }
+        ],
+        label: 'Poliuretano compatto'
+      },
+      {
+        label: 'Poliuretano espanso',
+      },
+      {
+        label: 'Racle serigrafia',
+      }
+    ],
+    label: 'Poliuretano',
+  },
   Tessuti: {
     children: [
       {

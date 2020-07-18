@@ -1,19 +1,11 @@
 <template lang="pug">
 q-toolbar.text-white.position-fixed.shadow-2.navbar
-  i.fas.fa-home.home-page
+  i.fas.fa-home.home-page(@click='$router.push({path: "/" })')
   q-btn.q-mr-sm.navbar-menu-toggle(flat round dense icon="menu")
     q-menu(content-class='side-menu')
       q-list
-        q-item(clickable)
-          q-item-section Home
-        q-item(clickable)
-          q-item-section Azienda
-        q-item(clickable)
-          q-item-section Prodotti
-        q-item(clickable)
-          q-item-section Applicazioni
-        q-item(clickable)
-          q-item-section Contatti
+        q-item(v-for='(navItem, index) in options', :key='index')
+          q-item-section(@click='$router.push({ path: `/${navItem.path}` })') {{ navItem.label }}
   q-space
   q-btn-toggle.menu-items(
     v-model="model",
@@ -30,19 +22,28 @@ export default class Navbar extends Vue {
   model: string = '';
   options: any[] = [
     {
+      label: 'Home',
+      path: '',
+      value: 'HOME',
+    },
+    {
       label: 'Azienda',
-      value: 'AZIENDA'
+      path: 'azienda',
+      value: 'AZIENDA',
     },
     {
       label: 'Prodotti',
+      path: 'prodotti',
       value: 'PRODOTTI'
     },
     {
       label: 'Applicazioni',
+      path: 'applicazioni',
       value: 'APPLICAZIONI'
     },
     {
       label: 'Contatti',
+      path: 'contatti',
       value: 'CONTATTI'
     }
   ]

@@ -1,5 +1,6 @@
 <template lang="pug">
 div(id='app')
+  Navbar
   router-view.site-content
   Footer.mt-13
 </template>
@@ -8,11 +9,13 @@ div(id='app')
 import { Component, Vue } from 'vue-property-decorator';
 
 import Footer from '@/views/Footer.vue';
+import Navbar from '@/views/Navbar.vue';
 
 @Component(
   {
     components: {
-      Footer
+      Footer,
+      Navbar
     }
   }
 )
@@ -36,6 +39,7 @@ export default class App extends Vue {
 
 .site-content {
   flex: 1 0 auto;
+  margin-top: 50px;
 }
 
 #nav {

@@ -60,3 +60,12 @@ $justifyContentValues: (center, flex-start, flex-end);
     justify-content: #{$value};
   }
 }
+
+// Positions
+$positionsValues: (block, relative, absolute, fixed);
+
+@each $value in $positionsValues {
+  .position-#{$value} {
+    position: #{$value};
+  }
+}

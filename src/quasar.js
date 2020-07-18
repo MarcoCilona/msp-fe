@@ -23,7 +23,10 @@ import {
   QItem,
   QItemSection,
   QItemLabel,
-  QTree
+  QTree,
+  QSpace,
+  QBtnToggle,
+  QMenu
 } from 'quasar';
 
 Vue.use(Quasar, {
@@ -45,7 +48,10 @@ Vue.use(Quasar, {
     QItem,
     QItemSection,
     QItemLabel,
-    QTree
+    QTree,
+    QSpace,
+    QBtnToggle,
+    QMenu
   },
   directives: {
   },

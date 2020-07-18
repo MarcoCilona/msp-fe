@@ -1,9 +1,6 @@
 <template lang="pug">
 div
   .home-page-carousel
-    .column.absolute-top.menu-bar.text-weight-bold.items-end.q-px-md
-      .col.text-grey-1.text-h5
-        | Menu
     .home-page-carousel__catchphrase
       .home-page-carousel__catchphrase__header
         span.home-page-carousel__catchphrase__header__title Maspe

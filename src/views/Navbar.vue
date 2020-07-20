@@ -1,25 +1,35 @@
 <template lang="pug">
 q-toolbar.text-white.position-fixed.shadow-2.navbar
-  i.fas.fa-home.home-page(@click='$router.push({path: "/" })')
   q-btn.q-mr-sm.navbar-menu-toggle(flat round dense icon="menu")
     q-menu(content-class='side-menu')
       q-list
         q-item(v-for='(navItem, index) in options', :key='index')
           q-item-section(@click='$router.push({ path: `/${navItem.path}` })') {{ navItem.label }}
   q-space
-  q-btn-toggle.menu-items(
-    v-model="model",
+  q-btn.menu-items(
+    v-for='(navItem, index) in options',
+    :key='index',
     flat stretch,
-    toggle-color="yellow",
-    :options="options")
+    :label='navItem.label'
+    @click='navItem.value !== "PRODOTTI" && $router.push({ path: `/${navItem.path}`})')
+      q-menu(
+        v-if='navItem.value === "PRODOTTI"'
+        transition-show="scale"
+        transition-hide="scale")
+        q-list(style="min-width: 100px")
+          q-item.product-category(v-for='(product, index) in products' :key='index')
+            q-item-section(@click='$router.push({ path: `/product/${product}` })') {{ product }}
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 
+import { mainProducts } from '@/dictionary/index';
+
 @Component
 export default class Navbar extends Vue {
   model: string = '';
+  products: string[] = mainProducts;
   options: any[] = [
     {
       label: 'Home',
@@ -70,6 +80,10 @@ export default class Navbar extends Vue {
 
 .menu-items {
   display: none !important;
+}
+
+.product-category {
+
 }
 
 @include respond-above(sm) {

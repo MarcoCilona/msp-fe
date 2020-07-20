@@ -10,8 +10,10 @@ export const subProducts: any = {
   ]
 };
 
+export const mainProducts: any = ['Tessuti', 'Poliuretano', 'Gomme e materiali isolanti', 'Materie plastiche'];
+
 export const subTrees: any = {
-  'Gomme e materiali isolanti diversi': {
+  'Gomme e materiali isolanti': {
     children: [
       {
         children: [
@@ -40,7 +42,7 @@ export const subTrees: any = {
         label: 'Altri'
       }
     ],
-    label: 'Gomme e materiali isolanti diversi',
+    label: 'Gomme e materiali isolanti',
   },
   'Materie plastiche': {
     children: [

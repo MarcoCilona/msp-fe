@@ -1,7 +1,7 @@
 <template lang="pug">
 div(id='app')
   Navbar
-  router-view.site-content
+  router-view.site-content(:key='$route.fullPath')
   Footer.mt-13
 </template>
 

@@ -2,7 +2,7 @@
 .ph-5.contact
   .contact-form
     h5 Contattaci
-    q-form.q-gutter-md(@submit="onSubmit", @reset="onReset")
+    q-form.q-gutter-md(@reset="onReset")
       q-input(v-model='name', label='Name', lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']")
       q-input(v-model='email', label='Email', type="email", lazy-rules
@@ -29,14 +29,14 @@ export default class ContactPage extends Vue {
   company: string = '';
   message: string = '';
 
-  onSubmit() {
-    this.$q.notify({
-      color: 'green-4',
-      icon: 'cloud_done',
-      message: 'Submitted',
-      textColor: 'white'
-    });
-  }
+  // onSubmit() {
+  //   this.$q.notify({
+  //     color: 'green-4',
+  //     icon: 'cloud_done',
+  //     message: 'Submitted',
+  //     textColor: 'white'
+  //   });
+  // }
 
   onReset() {
     this.name = '';

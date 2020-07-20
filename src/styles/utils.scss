@@ -69,3 +69,12 @@ $positionsValues: (block, relative, absolute, fixed);
     position: #{$value};
   }
 }
+
+// Display
+$displayValues: (block, flex, inline-flex, inline-block);
+
+@each $value in $positionsValues {
+  .d-#{$value} {
+    display: #{$value};
+  }
+}

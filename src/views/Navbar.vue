@@ -60,7 +60,7 @@ export default class Navbar extends Vue {
     },
     {
       label: 'Contatti',
-      path: 'contatti',
+      path: 'contacts',
       value: 'CONTATTI'
     }
   ]

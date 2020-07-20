@@ -26,7 +26,8 @@ import {
   QTree,
   QSpace,
   QBtnToggle,
-  QMenu
+  QMenu,
+  QExpansionItem
 } from 'quasar';
 
 Vue.use(Quasar, {
@@ -51,7 +52,8 @@ Vue.use(Quasar, {
     QTree,
     QSpace,
     QBtnToggle,
-    QMenu
+    QMenu,
+    QExpansionItem
   },
   directives: {
   },

@@ -3,8 +3,15 @@ q-toolbar.text-white.position-fixed.shadow-2.navbar
   q-btn.q-mr-sm.navbar-menu-toggle(flat round dense icon="menu")
     q-menu(content-class='side-menu')
       q-list
-        q-item(v-for='(navItem, index) in options', :key='index')
-          q-item-section(@click='$router.push({ path: `/${navItem.path}` })') {{ navItem.label }}
+        template(v-for='(navItem, index) in options')
+          q-item(v-if='navItem.value !== "PRODOTTI"', :key='index')
+            q-item-section(@click='$router.push({ path: `/${navItem.path}` })') {{ navItem.label }}
+          q-expansion-item(
+            v-if='navItem.value === "PRODOTTI"',
+            :key='index'
+            expand-separator
+            :label="navItem.label")
+            .ph-5.pv-4.sidebar-product(v-for='(product, index) in products' :key='index', @click='$router.push({ path: `/product/${product}` })') {{ product }}
   q-space
   q-btn.menu-items(
     v-for='(navItem, index) in options',
@@ -82,8 +89,12 @@ export default class Navbar extends Vue {
   display: none !important;
 }
 
-.product-category {
+.sidebar-product {
+  background-color: #0fb132;
 
+  &~.sidebar-product {
+    border-top: 1px solid #b7b7b7;
+  }
 }
 
 @include respond-above(sm) {

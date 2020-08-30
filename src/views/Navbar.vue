@@ -26,6 +26,8 @@ q-toolbar.text-white.position-fixed.shadow-2.navbar
         q-list(style="min-width: 100px")
           q-item.product-category(v-for='(product, index) in products' :key='index')
             q-item-section(@click='$router.push({ path: `/product/${product}` })') {{ product }}
+  .cursor-pointer(@click='handleLanguageSwitch')
+    | {{ $i18n.locale.toUpperCase() }}
 </template>
 
 <script lang="ts">
@@ -33,37 +35,62 @@ import { Component, Vue } from 'vue-property-decorator';
 
 import { mainProducts } from '@/dictionary/index';
 
+const EN = 'en';
+const IT = 'it';
+
 @Component
 export default class Navbar extends Vue {
   model: string = '';
   products: string[] = mainProducts;
-  options: any[] = [
-    {
-      label: 'Home',
-      path: '',
-      value: 'HOME',
-    },
-    {
-      label: 'Azienda',
-      path: 'azienda',
-      value: 'AZIENDA',
-    },
-    {
-      label: 'Prodotti',
-      path: 'prodotti',
-      value: 'PRODOTTI'
-    },
-    {
-      label: 'Applicazioni',
-      path: 'applicazioni',
-      value: 'APPLICAZIONI'
-    },
-    {
-      label: 'Contatti',
-      path: 'contacts',
-      value: 'CONTATTI'
+
+  get options() {
+    return [
+      {
+        label: this.$t('NAV_ITEM.HOME'),
+        path: '',
+        value: 'HOME',
+      },
+      {
+        label: this.$t('NAV_ITEM.ABOUT_US'),
+        path: 'azienda',
+        value: 'AZIENDA',
+      },
+      {
+        label: this.$t('NAV_ITEM.PRODUCTS'),
+        path: 'prodotti',
+        value: 'PRODOTTI'
+      },
+      {
+        label: this.$t('NAV_ITEM.USAGES'),
+        path: 'applicazioni',
+        value: 'APPLICAZIONI'
+      },
+      {
+        label: this.$t('NAV_ITEM.CONTACT_US'),
+        path: 'contacts',
+        value: 'CONTATTI'
+      }
+    ];
+  }
+
+  handleLanguageSwitch() {
+    let language: string = '';
+
+    switch (this.$i18n.locale) {
+      case IT:
+        language = EN;
+        break;
+      case EN:
+        language = IT;
+        break;
+      default:
+        language = process.env.VUE_APP_I18N_FALLBACK_LOCALE as string;
     }
-  ]
+
+    this.$i18n.locale = language;
+  }
+
+  // Getters and setters
 }
 </script>
 

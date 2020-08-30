@@ -12,15 +12,15 @@ module.exports = {
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'comma-dangle': 'off',
-    'indent': ['error', 2, { "SwitchCase": 1 }],
+    indent: ['error', 2, { SwitchCase: 1 }],
     'lines-between-class-members': 'off',
     'max-len': 'off',
     'linebreak-style': 'off',
     'no-underscore-dangle': 'off',
-    'sort-keys': ['error', 'asc', {'caseSensitive': true, 'natural': false}],
-    'sort-vars': ['error', {'ignoreCase': true}]
+    'sort-keys': ['error', 'asc', { caseSensitive: true, natural: false }],
+    'sort-vars': ['error', { ignoreCase: true }]
   },
   parserOptions: {
     parser: '@typescript-eslint/parser'
   }
-}
+};

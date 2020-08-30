@@ -37,33 +37,37 @@ import { mainProducts } from '@/dictionary/index';
 export default class Navbar extends Vue {
   model: string = '';
   products: string[] = mainProducts;
-  options: any[] = [
-    {
-      label: 'Home',
-      path: '',
-      value: 'HOME',
-    },
-    {
-      label: 'Azienda',
-      path: 'azienda',
-      value: 'AZIENDA',
-    },
-    {
-      label: 'Prodotti',
-      path: 'prodotti',
-      value: 'PRODOTTI'
-    },
-    {
-      label: 'Applicazioni',
-      path: 'applicazioni',
-      value: 'APPLICAZIONI'
-    },
-    {
-      label: 'Contatti',
-      path: 'contacts',
-      value: 'CONTATTI'
-    }
-  ]
+  options: any[] = [];
+
+  created() {
+    this.options = [
+      {
+        label: this.$t('NAV_ITEM.HOME'),
+        path: '',
+        value: 'HOME',
+      },
+      {
+        label: this.$t('NAV_ITEM.ABOUT_US'),
+        path: 'azienda',
+        value: 'AZIENDA',
+      },
+      {
+        label: this.$t('NAV_ITEM.PRODUCTS'),
+        path: 'prodotti',
+        value: 'PRODOTTI'
+      },
+      {
+        label: this.$t('NAV_ITEM.USAGES'),
+        path: 'applicazioni',
+        value: 'APPLICAZIONI'
+      },
+      {
+        label: this.$t('NAV_ITEM.CONTACT_US'),
+        path: 'contacts',
+        value: 'CONTATTI'
+      }
+    ];
+  }
 }
 </script>
 

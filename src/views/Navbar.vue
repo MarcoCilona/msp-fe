@@ -60,11 +60,11 @@ export default class Navbar extends Vue {
         path: 'prodotti',
         value: 'PRODOTTI'
       },
-      {
-        label: this.$t('NAV_ITEM.USAGES'),
-        path: 'applicazioni',
-        value: 'APPLICAZIONI'
-      },
+      // {
+      //   label: this.$t('NAV_ITEM.USAGES'),
+      //   path: 'applicazioni',
+      //   value: 'APPLICAZIONI'
+      // },
       {
         label: this.$t('NAV_ITEM.CONTACT_US'),
         path: 'contacts',

@@ -21,8 +21,6 @@
     strong.ml-1 prodotti di qualità
     |, costante nel tempo, e sull’integrazione di nuovi prodotti pensati per ampliare o migliorare la gamma di applicazioni. Per questo motivo abbiamo sempre cercato un rapporto di collaborazione continuativo con i ns. fornitori che in alcuni casi ci forniscono da 40/45 anni garantendo qualità e innovazione.
     | Anche con i ns. clienti abbiamo sempre cercato di essere collaborativi e di supporto perché riteniamo che il reciproco ascolto possa agevolare la soluzione delle eventuali problematiche tecniche da affrontare con soddisfazione da ambo le parti.
-  p.mt-3.about-paragraph
-    | Il PHILAN®, un poliuretano particolarmente resistente ad usura ed abrasione, il Lofrene, polietilene HD ad alto ed altissimo peso molecolare, i tessuti di vetro teflonati e siliconati sono i prodotti principali trattati dalla MASPE la cui gamma comprende anche policarbonato, metacrilato, gomma di silicone, gomma alimentare, gomma mousse, spray e grasso al silicone, racle per serigrafia, isolanti termici in fibra di vetro, tela e carta bakelite, nastri per avvolgimento cilindri.
 </template>
 
 <script lang="ts">

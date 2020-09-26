@@ -51,7 +51,7 @@ $directions: (
       }
     }
   }
-};
+}
 
 // Content alignment
 $justifyContentValues: (center, flex-start, flex-end);
@@ -73,8 +73,16 @@ $positionsValues: (block, relative, absolute, fixed);
 // Display
 $displayValues: (block, flex, inline-flex, inline-block);
 
-@each $value in $positionsValues {
+@each $value in $displayValues {
   .d-#{$value} {
     display: #{$value};
+  }
+}
+
+// White space
+$whiteSpaceValue: (break-spaces, pre, pre-line, pre-wrap);
+@each $value in $whiteSpaceValue {
+  .ws-#{$value} {
+    white-space: #{$value};
   }
 }

@@ -2,34 +2,44 @@
 div
   div.product-header
     img.product-image(src='@/assets/unnamed.jpg')
-    span.product-header__title {{ selected }}
+    span.product-header__title {{ selected && $t(`PRODUCTS.${selected}.LABEL`) }}
   .content
     .content__left-column
-      q-tree(:nodes='productTree', :expanded.sync="expanded", :selected="selected", node-key='label', @update:selected='handleSelected')
-    .content__right-column
-      h4.mt-0.mb-3 {{ selected }}
-      p {{ selectedProductText }}
+      q-tree(:nodes='productTree', :expanded.sync="expanded", :selected="selected", labelKey='value' node-key='value', @update:selected='handleSelected')
+        template(v-slot:default-header="prop") {{ prop.node.value && $t(`PRODUCTS.${prop.node.value}.LABEL`) }}
+    .content__right-column(v-if='selected')
+      h4.mt-2.mb-3 {{ $t(`PRODUCTS.${selected}.LABEL`) }}
+      p.ws-break-spaces(v-html='$t(`PRODUCTS.${selected}.DESCRIPTION`)')
+      .ws-break-spaces(v-if='$t(`PRODUCTS.${selected}.ADVANTAGES`)')
+        h5.mt-0.mb-2 Vantaggi
+        p {{ $t(`PRODUCTS.${selected}.ADVANTAGES`) }}
+      .ws-break-spaces(v-if='$t(`PRODUCTS.${selected}.AREA`)')
+        h5.mt-0.mb-2 Settori di utilizzo
+        p {{ $t(`PRODUCTS.${selected}.AREA`) }}
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { products, subTrees } from '@/dictionary/index';
+import { subTrees } from '@/dictionary/index';
 
 @Component
 export default class Product extends Vue {
   expanded: string[] = [];
   product: string = '';
   selected: string = '';
-  selectedProductText: string = '';
   subcategories: string[] = [];
   productTree: any[] = [];
 
   mounted() {
+    // Saving the category of the product
     this.product = this.$route.params.name;
-
+    // Selected product is retrieved from the url at first iteration
     this.selected = this.product;
-    this.selectedProductText = products[this.selected];
+
+    // Expanding the default selected product (variable used by Tree component)
     this.expanded.push(this.product);
+
+    // Building the tree
     this.productTree.push(subTrees[this.product]);
   }
 
@@ -37,7 +47,6 @@ export default class Product extends Vue {
     if (!$event) return;
 
     this.selected = $event;
-    this.selectedProductText = products[this.selected];
   }
 }
 </script>

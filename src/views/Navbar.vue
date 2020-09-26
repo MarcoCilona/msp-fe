@@ -11,7 +11,7 @@ q-toolbar.text-white.position-fixed.shadow-2.navbar
             :key='index'
             expand-separator
             :label="navItem.label")
-            .ph-5.pv-4.sidebar-product(v-for='(product, index) in products' :key='index', @click='$router.push({ path: `/product/${product}` })') {{ product }}
+            .ph-5.pv-4.sidebar-product(v-for='(product, index) in products' :key='index', @click='$router.push({ path: `/product/${product}` })') {{ product && $t(`PRODUCTS.${product}.LABEL`) }}
   q-space
   q-btn.menu-items(
     v-for='(navItem, index) in options',
@@ -25,7 +25,7 @@ q-toolbar.text-white.position-fixed.shadow-2.navbar
         transition-hide="scale")
         q-list(style="min-width: 100px")
           q-item.product-category(v-for='(product, index) in products' :key='index')
-            q-item-section(@click='$router.push({ path: `/product/${product}` })') {{ product }}
+            q-item-section.cursor-pointer(@click='$router.push({ path: `/product/${product}` })') {{ $t(`PRODUCTS.${product}.LABEL`) }}
   .cursor-pointer(@click='handleLanguageSwitch')
     | {{ $i18n.locale.toUpperCase() }}
 </template>

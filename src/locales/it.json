@@ -5,5 +5,229 @@
         "HOME": "Home",
         "PRODUCTS": "Prodotti",
         "USAGES": "Applicazioni"
+    },
+    "PRODUCTS": {
+        "ADESIVI_E_NON": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION" :"Adesivi e non adesivi is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "LABEL": "Adesivi e non adesivi"
+        },
+        "ANTISTATICI_E_NON": {
+            "ADVANTAGES": "",
+            "AREA" : "",
+            "DESCRIPTION" :"Antistatici adesivi e non is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "LABEL": "Antistatici adesivi e non"
+        },
+        "BOBINE": {
+            "ADVANTAGES": "",
+            "AREA" : "",
+            "DESCRIPTION" :"Bobine is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "LABEL": "Bobine"
+        },
+        "ANTIADERENTI": {
+            "ADVANTAGES": "",
+            "AREA" : "",
+            "DESCRIPTION" :"I ns. fogli antiaderenti sono dei fogli di cottura specificatamente ideati sia per l'industria alimentare, sia per il catering e la ristorazione collettiva, sia per l'uso privato con particolare riguardo per l'alimentazione dietetica.\n\nLa loro superficie perfettamente antiaderente assicura il facile distacco di tutti gli alimenti, può essere utilizzato anche nei forni a microonde.\n\nL'uso e la pulizia dei ns. fogli antiaderenti sono semplicissimi: basta stendere i fogli già tagliati a misura nelle teglie e pulirli con un semplice panno umido dopo l’uso. Vengono riutilizzati ancora anche quelli più appiccicosi. Viene utilizzato per rivestire vassoi e teglie ma anche pentole e ed ancora, basta un semplice quanto ovvio accorgimento: la loro superficie non deve in alcun modo essere graffiata.",
+            "LABEL": "Fogli antiaderenti"
+        },
+        "NASTRI_TRASPORTATORI": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "Oltre ai tessuti di vetro teflonati e siliconati e alle bobine tagliate a misura, MASPE fornisce anche nastri trasportatori realizzati in base alle esigenze del cliente.\n\nI ns. nastri trasportatori vengono prodotti in tessuti di vetro PTFE di vari spessori, in rete di fibra di vetro PTFE, anche in versione antistatica e in Kevlar.\n\nI nastri vengono prodotti in versione chiusa (saldati ad anello) o apribile. La versione apribile viene realizzata con vari tipi di giunzione quali ad es. alligator (metallica), peek (materiale plastico), bullnose.\n\nAi nastri possono essere applicati rinforzi laterali, con o senza borchie o occhielli.",
+            "LABEL": "Nastri trasportatori"
+        },
+        "PTFE_UHMW": {
+            "ADVANTAGES": "",
+            "AREA" : "",
+            "DESCRIPTION" :"La gamma dei tessuti di vetro teflonati e siliconati è completata dal PTFE sfogliato adesivo, e dalla poliolefina (UHMW-PE) adesiva.\n\nQuesti due prodotti vantano entrambi un basso coefficiente di attrito e si distinguono per caratteristiche opposte: \n\t- resistenza ad alte temperature (fino a 260°C) e bassa resistenza meccanica per il PTFE \n\t- ottima resistenza all’usura e all’abrasione per la poliolefina, ma utilizzo a temperatura massima di 65°C in continuo.",
+            "LABEL": "PTFE e UHMW"
+        },
+        "TESSUTI": {
+            "ADVANTAGES": "- superfici particolarmente antiaderenti\r\n\t- basso coefficiente di attrito\n\t- ottima resistenza al calore e al freddo (-73°C / +260°C)\n\t- ottima resistenza ad agenti chimici, contaminazioni batteriche, muffe\n\t- eccellente resistenza meccanica e dielettrica\n\t- atossicità\n\t- facilità di pulizia",
+            "AREA" : "",
+            "DESCRIPTION" :"La ns. gamma comprende tessuti di vetro PTFE, tessuti di vetro siliconati, PTFE sfogliato adesivo, PTFE alta densità adesivo.\nQuesti materiali sono ampiamente utilizzati in tutte le applicazioni che richiedono particolare resistenza a temperatura unita ad eccellenti proprietà distaccanti.\nTutti i prodotti disponibili nella versione adesiva vengono forniti con un adesivo siliconico che garantisce a sua volta una notevole resistenza alle alte temperature.\nI tessuti di vetro PTFE, sia adesivi che non adesivi, sono disponibili anche nella versione antistatica per applicazioni in presenza di elettricità statica.",
+            "LABEL": "Tessuti"
+        },
+        "TESSUTI_PTFE": {
+            "ADVANTAGES": "",
+            "AREA" : "",
+            "DESCRIPTION" :"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "LABEL": "Tessuti ptfe"
+        },
+        "SILICONATI": {
+            "ADVANTAGES": "- eccellenti proprietà distaccanti fino a +230° C\n\t- buona resistenza chimica a sostanze blandamente alcaline, acidi non ossidanti, la maggior parte dei sali, olio lubrificante minerale, aria, umidità e luce solare\n\t- superiore resistenza ad abrasione e flessibilità\n\t- elevata rigidità dielettrica.",
+            "AREA" : "",
+            "DESCRIPTION" :"I tessuti di vetro siliconati, pur non presentando superfici lisce e a basso coefficiente di attrito, proprie dei tessuti di vetro teflonati, offrono eccellenti proprietà distaccanti, anche per sostanze in grado di aderire al PTFE.\nSono solitamente disponibili da magazzino in rotoli di vari spessori nei colori bianco o rosso. Possiamo fornire anche rotoli in altezze su richiesta.",
+            "LABEL": "Tessuti siliconati"
+        },
+        "SEMILAVORATI": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "La ns. gamma di semilavorati in poliuretano comprende:\n\n\t-lastre in poliuretano centrifugato\n\t-lastre in poliuretano colato\n\t-tondi in poliuretano\n\t-manicotti in poliuretano\n\t-pezzi a misura in poliuretano colato\n\t-lastre saldate a caldo\n\t-lastre con inserti metallici / tessili\n\n<strong>Lastre in poliuretano centrifugato</strong>\nLa ns. gamma comprende lastre in poliuretano centrifugato in due formati standard: 2000 x 1000 mm e 3000 x 1000 mm negli spessori compresi tra 1 e 10 mm e durezza tra 65° e 95° Shore A.\n\n<strong>Lastre in poliuretano colato</strong>\nLe lastre in poliuretano colato sono disponibili in formati standard in durezze tra 65° e 95° Shore A, ma possono essere prodotte su misura a richiesta del cliente.\nI formati standard (che variano in base agli spessori) sono:\n\t-2000 x 1000 mm\n\t-1000 x 1000 mm\n\t-1000 x 500 mm\n\t-500 x 500 mm\n\n<strong>Tondi in poliuretano</strong>\nI tondi in poliuretano vengono prodotti con durezza compresa tra 80° e 93° Shore A.\nLe barre sono disponibili in lunghezza standard 1 metro per diametri compresi tra 20 e 180 mm; a partire dal diametro 140 mm possono essere fornite barre lunghezza 500 mm.\nAltre misure possono essere prodotte su richiesta.\n\n<strong>Manicotti in poliuretano</strong>\nI manicotti in poliuretano vengono prodotti con durezza compresa tra 80° e 93° Shore A, in barre lunghezza 1 metro. La gamma standard dei manicotti comprende semilavorati fino ad un diametro esterno di 150 mm con una parete minima di 10 mm. Diametri superiori possono essere prodotti su richiesta.\n\n<strong>Pezzi a misura in poliuretano colato</strong>\nI pezzi in Philan colato possono essere prodotti oltre che in lastre di dimensioni standard (che variano in base agli spessori) anche su richiesta.\nQuesto consente una notevole riduzione dei costi dovuta alla riduzione al minimo degli sfridi.\n\n<strong>Lastre saldate a caldo</strong>\nLe lastre possono essere fornite anche in lunghezze maggiori di tre metri. In questo caso il materiale viene saldato a caldo.\nQuesta lavorazione può essere eseguita per spessori superiori a 5 mm.\n\n<strong>Lastre con inserti metallici / tessili</strong>\nLe lastre possono essere fornite anche con inserto metallico o tessile per applicazioni particolari.",
+            "LABEL": "Semilavorati"
+        },
+        "ESTRATTIVA": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "Grazie alle proprie eccellenti caratteristiche di resistenza ad usura ed abrasione, il PHILAN® viene utilizzato con successo nel settore della lavorazione degli inerti e nelle cave.\n\nIl PHILAN® è la soluzione ideale per il rivestimento dei volani nelle macchine a filo diamantato ed è solitamente disponibile da magazzino in misura standard 4000 x 40 x 8 mm.Altre misure possono essere fornite su richiesta.",
+            "LABEL": "Estrattiva"
+        },
+        "SGOMBRANEVE": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "I ns. coltelli in poliuretano per lame sgombraneve sono particolarmente apprezzati per l'eccellente resistenza ad usura ed abrasione, qualità decisamente rilevante per questa applicazione.\n\nAllo scopo di migliorarne ulteriormente le prestazioni, il poliuretano viene inoltre sottoposto ad un particolare trattamento che ne migliora le doti di resistenza all' idrolisi.\n\nI ns. coltelli in poliuretano consentono di salvaguardare al meglio l’integrità del manto stradale e si adattano in modo ottimale alle irregolarità del terreno.\n\nLa manutenzione invernale risulta veloce, accurata e silenziosa. I ns. coltelli in poliuretano vengono prodotti su misura, a richiesta del cliente, si adattano quindi a qualsiasi tipo di lama sgombraneve: lame aeroportuali, lame per sgombraneve autostradali, lame per sgombraneve utilizzate per la manutenzione invernale di strade statali, provinciali e comunali.",
+            "LABEL": "Sgombraneve"
+        },
+        "AGRICOLTURA_E_ZOOTECNICA": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "Il Philan® viene utilizzato anche nel settore agricolo e zootecnico per la produzione di componenti particolarmente soggetti ad usura in quanto garantisce caratteristiche di resistenza ad usura ed abrasione superiori alle alternative in gomma.",
+            "LABEL": "Agricoltura e zootecnica"
+        },
+        "APPLICAZIONI_MECCANICHE": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "Le eccellenti caratteristiche di resistenza ad usura ed abrasione del Philan® ne suggeriscono l’uso in molte applicazioni legate al settore meccanico e dei trasporti in genere.\n\nIl nostro poliuretano viene utilizzato ad esempio per la produzione di guarnizioni tranciate a disegno, anelli, bussole, boccole, paracolpi, rulli pressori, pezzi per imbutitura a freddo, etc.\n\nTutti i particolari sopra descritti e altri ancora vengono prodotti da stampo su disegno del cliente.",
+            "LABEL": "Applicazioni meccaniche"
+        },
+        "POLIURETANO_COMPATTO": {
+            "ADVANTAGES": "- ottima resistenza ad usura ed abrasione\n\t- eccellente resistenza meccanica\n\t- ottima resistenza a trazione",
+            "AREA": "",
+            "DESCRIPTION": "Il PHILAN®  è un elastomero di poliuretano prodotto in Germania, da noi commercializzato in esclusiva in Italia.\n\nGrazie alle proprie caratteristiche di eccellente resistenza ad usura ed abrasione, il Philan viene utilizzato per una vastissima gamma di applicazioni:\n\n\t- guarnizioni industriali\n\t- pezzi antiusura per macchine edili e stradali\n\t- strisce e componenti antiusura per macchine a filo diamantato\n\t- coltelli in poliuretano per lame sgombraneve\n\t- pezzi resistenti ad usura per macchine agricole e per il settore zootecnico\n\nE' disponibile da magazzino in lastre, tondi, manicotti in diversi formati e durezze Shore. Pezzi a disegno possono essere forniti su richiesta.",
+            "LABEL": "Poliuretano compatto"
+        },
+        "POLIURETANO_ESPANSO": {
+            "ADVANTAGES": "- Elevata deformabilità\n\t- Minima dilatazione trasversale",
+            "AREA": "",
+            "DESCRIPTION": "Il Mapocell è un elastomero poliuretanico espanso prodotto in densità comprese tra 350 e 650 Kg/m³.\n\nIl ns. poliuretano cellulare è idoneo per applicazioni che richiedono un’ elevata deformabilità (fino all’ 80% in presenza di una minima dilatazione trasversale) ed una resistenza alla compressione inferiore rispetto agli elastomeri compatti.\n\nPuò essere utilizzato a temperature comprese tra -20° C e +80° C.\n\nE’ disponibile in lastre formato 500 x 250 mm.\n\nLe sue caratteristiche ne fanno il materiale ideale per la produzione di ammortizzatori.",
+            "LABEL": "Poliuretano espanso"
+        },
+        "RACLE_SERIGRAFIA": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "Le ns. racle per serigrafia vengono prodotte in elastomero poliuretanico in varie durezze, nelle versioni monostrato, bistrato e triplo strato.\n\nLe caratteristiche principali sono:\n\t- elevata resistenza ai solventi \n\t- elevata resistenza ai raggi UV \n\t- elevata resistenza all’usura e all’abrasione.\n\nLa ns. gamma comprende i profili indicati nella tabella sottostante.\n",
+            "LABEL": "Racle serigrafia"
+        },
+        "POLIURETANO": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "TBD",
+            "LABEL": "Poliuretano"
+        },
+        "INDUSTRIA_EDILE": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "Per le sue eccellenti caratteristiche di resistenza ad usura ed abrasione il PHILAN® si dimostra particolarmente valido in applicazioni severe come quelle legate alla lavorazione di inerti.\n\nAlle moderne autobetoniere ed ai moderni impianti di betonaggio si richiedono non soltanto la massima durata, ma anche pesi ridotti e tecnologia pulita.\nI rivestimenti e i pezzi in PHILAN® antiusura offrono caratteristiche di resistenza meccanica molto elevate, oltre a un' insonorizzazione ottimale e a una buona flessibilità anche a una durezza di 80°/90° Shore A.\n\n<strong>Gamma di produzione specifica per il settore</strong>\n\n\t- raschiatori\n\t- rivestimenti di tramogge\n\t- rivestimento di scivoli per autobetoniere\n\t- fondi e pareti per mescolatori con e senza inserto metallico\n\t- bracci e pale per mescolatori\n\t- rivestimenti per sabbiatrici, compattatori asfalto",
+            "LABEL": "Industria edile"
+        },
+        "GOMME_E_MATERIALI_ISOLANTI": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "TBD",
+            "LABEL": "Gomme e materiali isolanti"
+        },
+        "COMPATTA": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "La gomma siliconica è un polimero appartenente al gruppo degli elastomeri, particolarmente apprezzato per la sua resistenza ad elevate temperature (fino a +200 °C per il tipo standard, fino a +300° C nel caso della mescola speciale) oltre che per la notevole resistenza a molti agenti chimici.\nLa ns. gamma include semilavorati in gomma siliconica compatta suddivisibili in tre tipologie:\n\n\t- Gomma siliconica per usi standard\n\t- Gomma siliconica per altissime temperature\n\t- Gomma siliconica per industria alimentare.\n\nLe suddette tre tipologie di gomma siliconica sono disponibili in rotoli di vari spessori, in profili pieni (rettangoli, quadri, tondi) e in tubi. Disponiamo inoltre di un’ampia gamma di profili sagomati.  Viene prodotta nei colori rosso, traslucido e nero.\n\n<strong>Gomma siliconica – Impronta tela da 1 lato</strong>\nQuesta gomma siliconica viene prodotta con una superficie liscia e l’altra impronta tela.\nI principali settori di applicazione riguardano la laminazione/produzione di pannelli fotovoltaici, la sublimazione di infissi in alluminio/3D, la nobilitazione di pannelli in legno e la stratificazione del vetro.",
+            "LABEL": "Compatta"
+        },
+        "ESPANSA": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "La ns. gomma siliconica espansa ha una struttura a cellule chiuse rivestita da una sottile pellicola esterna. Offre un basso assorbimento di umidità e una buona resistenza ai raggi UV e all’ozono.\nLa temperatura di utilizzo è compresa tra -60° C e +200°C.\nLa gomma siliconica espansa offre eccellenti caratteristiche per applicazioni antivibranti e ammortizzanti.\nLa ns. gamma comprende sia lastre che profili di colore bianco.",
+            "LABEL": "Espansa"
+        },
+        "GOMMA_SILICONICA": {
+            "ADVANTAGES": "",
+            "AREA": "\t- settore dell’imballaggio\n\t- forni e cucine\n\t- settore chimico\n\t- settore elettrico\n\t- settore alimentare\n\t- settore meccanico-siderurgico\n\t- settore aeronautico e aerospaziale\n\t- settore automobilistico\n\t- settore edile\n\t- settore navale\n\t- settore fotovoltaico",
+            "DESCRIPTION": "TBD",
+            "LABEL": "Gomma siliconica"
+        },
+        "ALTRE_GOMME": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "TBD",
+            "LABEL": "Altre gomme"
+        },
+        "BAKELITE": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "<strong>Lastre in tela bakelizzata</strong>\n\nSi tratta di uno stratificato costituito da tessuto di puro cotone trattato con resine fenoliche termoindurenti che offre un’elevata resistenza meccanica unita a buone caratteristiche dielettriche.\nQuesto laminato è adatto per la realizzazione di pezzi quali ingranaggi silenziosi, alberi a camme, boccole, cuscinetti per laminatoi etc. usati nel settore elettromeccanico, elettrotecnico, meccanico ed industriale in genere. \nLe lastre in tela bakelizzata sono disponibili in quattro varianti in base al numero di fili/ cmq.\n\n<strong>Lastre in carta bakelizzata</strong>\n\nSi tratta di uno stratificato costituito da carta di pura cellulosa di legno trattata con resine termoindurenti. Questo prodotto dielettrico viene utilizzato per realizzare particolari tranciati, pannelli, quadri elettrici ed altri prodotti per settori quali telecomunicazioni, elettrotecnica etc. \n\nLe lastre in carta bakelizzata sono disponibili nelle seguenti varianti:\n\n\t- tipo Standard: viene utilizzato per tutte le applicazioni standard. È consigliabile non utilizzarlo in presenza di olio caldo. \n\t- tipo AT: questo laminato viene utilizzato in caso di Capitolati F.S., Marina Militare, Aeronautica e per trasformatori elettrici poiché non si altera in presenza di olio caldo.  \n\t- tipo TR: è molto adatto per la tranciatura sia a freddo che a caldo.  Viene largamente impiegato per particolari tranciati per settore radio, telefonia ed elettrotecnica.\n\n<strong>Bastoni torniti in tela bakelizzata</strong>\n\nSi ricavano da lastre in tela bakelizzata, tipo standard, mediante tornitura. Vengono impiegati per la realizzazione di pomelli, spessori isolanti, rondelle, anelli ed altri pezzi lavorati. Non sono adatti per la produzione di ingranaggi.  Diametri: da 6 mm. a 120 mm. in lunghezza 1000 mm.; diametri superiori a 120 mm. su richiesta in lunghezza massima 500 mm. \n\n<strong>Bastoni avvolti in tela o carta bakelizzata</strong>\n\nI bastoni della ns. gamma sono di tipo avvolto, non supercompresso. Vengono impiegati per la realizzazione di pomelli, spessori isolanti, rondelle, anelli ed altri pezzi lavorati. Non sono adatti per la produzione di ingranaggi.\n\n<strong>Tubi avvolti in tela o carta bakelizzata</strong>\n\nI bastoni della ns. gamma sono di tipo avvolto, non supercompresso. Vengono impiegati per l’isolamento di conduttori su macchine e impianti oppure come distanziatori e per trasformatori non a contatto con oli.",
+            "LABEL": "Bakelite"
+        },
+        "VETRORESINA": {
+            "ADVANTAGES": "",
+            "AREA": "\t- industria meccanica ed elettromeccanica\n\t- industria elettronica\n\t- industria dei trasporti\n\t- industria tessile",
+            "DESCRIPTION": "Gli stratificati di tessuto di vetro e resina epossidica si distinguono per le elevate qualità elettriche e meccaniche unite ad un bassissimo assorbimento di umidità ed alla notevole stabilità dimensionale.",
+            "LABEL": "Vetroresina"
+        },
+        "ISOLANTI_IN_FIBRA_DI_VETRO": {
+            "ADVANTAGES": "",
+            "AREA": "\t- guarnizioni per caldaie e forni industriali \n\t- porte di forni e porte tagliafuoco \n\t- trafilerie \n\t- isolamento per tubi e cavi elettrici \n\t- protezione contro il calore \n\t- coibentazione \n\t- cantieristica \n\t- siderurgia \n\t- settore automobilistico e navale.",
+            "DESCRIPTION": "<strong>FILATO TIPO 'E'</strong>\n\nLa ns. gamma comprende tessuti, trecce, filotti, cordoni, nastri, calze. \nSono tutti realizzati in filato tipo E' di fibra di vetro testurizzato con filamenti continui.\n\n\t- resistenza a temperatura fino +500° C \n\t- ottima resistenza chimica \n\t- eccellenti caratteristiche dielettriche \n\n<strong>FILATO IN FIBRA DI VETRO PER ALTE TEMPERATURE TIPO 'HT'</strong>\n\nLa ns. gamma HT comprende, come la gamma standard, tessuti, trecce, filotti, cordoni, nastri, calze.\nSono tutti realizzati in filato tipo 'E' di fibra di vetro testurizzato ritorti e sottoposti a speciali trattamenti.\n\n\t- resistenza a temperatura fino +800° C \n\t- ottima resistenza agli acidi, alcali e grassi \n\t- eccellente resistenza a metallo fuso e schizzi di saldatura \n\t- stabilità dimensionale molto buona a 700° C.",
+            "LABEL": "Isolanti in fibra di vetro"
+        },
+        "ALTRI": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "<strong>Grasso siliconico</strong>\n\nProdotto a base di silicone utilizzato come isolante, protettivo, scivolante, tropicalizzante, lubrificante infusibile.\n\n<strong>Spray siliconico</strong>\n\nE’ un prodotto a base di silicone che, dove spruzzato, forma un velo lubrificante che conferisce proprietà antiaderenti, antistatiche ed impermeabilità all’acqua.\nImpiegato come antiadesivo nella sformatura di termoplastici, termoindurenti, gomma naturale e sintetica e particolarmente indicato come distaccante di particolari trasparenti in acetato, esteri di cellulosa, metacrilati, policarbonati, polistirolo.",
+            "LABEL": "Altri"
+        },
+        "POLIAMMIDI": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "<strong>POLIAMMIDI</strong>\n\nLa gamma dei poliammidi comprende PA 6, PA 6.6, PA6 + MoS2.\nLe principali caratteristiche dei poliammidi sono:\n\n\t- Resistenza meccanica, durezza e rigidità \n\t- Buona resistenza alla fatica \n\t- Elevato smorzamento meccanico \n\t- Buone proprietà di scorrimento \n\t- Eccellente resistenza all'usura \n\t- Buona lavorabilità alle macchine utensili\n\n<strong>POLIAMMIDE 6 (PA6)</strong>\n\nOffre ottime caratteristiche meccaniche ed elevata resistenza agli urti anche a basse temperature. Resiste ai composti organici ed inorganici ma viene fortemente intaccato dagli acidi forti.\n\n<strong>POLIAMMIDE 6 CARICATO BISOLFURO DI MOLIBDENO</strong>\n\nOffre le stesse caratteristiche del PA6, ma una migliore scorrevolezza e un minor assorbimento di umidità.\n\n<strong>POLIAMMIDE 6 COLATO</strong>\n\nE’ un poliammide con un alto grado di cristallinità, ottenuto con uno speciale procedimento di polimerizzazione.\nHa caratteristiche meccaniche generalmente migliori del poliammide 6. Offre ottima resistenza ad usura ed abrasione.\nPuò essere prodotto con l’aggiunta di additivi (ad esempio il tipo PA6 OIL che vanta un coefficiente di attrito notevolmente migliore rispetto al prodotto standard).\n\n<strong>POLIAMMIDE 6,6</strong>\n\nHa caratteristiche meccaniche superiori rispetto al poliammide 6 e minore igroscopicità. Offre un ridotto potere di assorbimento agli urti a causa della maggiore rigidità.\n\n<strong>POLIPROPILENE (PP)</strong>\n\nBuone proprietà meccaniche e ottime caratteristiche di resistenza agli agenti chimici, anche ad alte temperature. Assorbimento umidità: quasi nullo.\n\n<strong>RESINA ACETALICA (POM)</strong>\n\nLe migliori caratteristiche di questo polimero sono elevata resistenza meccanica, tenacità, durezza, rigidità, scorrevolezza e stabilità dimensionale.\nQueste proprietà, unite al bassissimo assorbimento di umidità, consentono di produrre pezzi finiti di grande precisione.\nAnche le proprietà elettriche sono molto buone.\n\n<strong>PVC</strong>\n\nIl PVC rigido è un materiale duro con buoni valori di resistenza meccanica, elevata inerzia chimica anche in presenza di ossidanti come ad esempio l'acido nitrico, ed ottime proprietà dielettriche, che ne fanno un buon isolante.\nLa limitata resistenza termica ne consente l’impiego a temperature fino a + 60°C in esercizio continuo.\nIl PVC può essere incollato con adesivi a base solvente ed ha eccellenti caratteristiche di saldabilità.\nLo scarso assorbimento di umidità gli conferisce stabilità dimensionale entro i limiti termici che gli sono propri. \n\n<strong>PV BLOC</strong>\n\nQuesto materiale è particolarmente utilizzato come sottotrancia nelle lavorazioni di fustellatura.\nE’ costituito da due strati esterni di colore bianco ed uno strato interno di colore nero.\nPuò essere fornito in lastre o in sottotrance di vari spessori e formati.",
+            "LABEL": "Poliammidi - PVC - POM - PP"
+        },
+        "MATERIE_PLASTICHE": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "TBD",
+            "LABEL": "Materie plastiche"
+        },
+        "SEMILAVORATI_MP": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "La ns gamma comprende lastre in Lofrene 500, Lofrene 1000 e tondi in Lofrene 1000.\n\nIl LOFRENE 500 è solitamente disponibile da magazzino in lastre di colore bianco in spessori compresi tra 2 e 80 mm. Spessori superiori vengono forniti su richiesta.\nAlcuni spessori sono disponibili da magazzino anche in lastre di colore giallo, rosso, verde, nero e blu.\n\nIl LOFRENE 1000 è disponibile da magazzino a partire dallo spessore 5 mm in lastre da 2000 x 1000 mm di colore verde. Il colore nero viene fornito su richiesta.\n\nI tondi in LOFRENE 1000, di colore bianco o nero sono forniti da magazzino in barre lunghezza 2000 mm o 1000 mm. Altri colori sono disponibili su richiesta.",
+            "LABEL": "Semilavorati"
+        },
+        "TAGLIERI_E_CEPPI": {
+            "ADVANTAGES": "L'utilizzo di taglieri in Lofrene di diverso colore per ciascuna tipologia di alimenti consente di ridurre considerevolmente la contaminazione batterica tra cibi ed evita la mescolanza di profumi e sapori differenti.",
+            "AREA": "",
+            "DESCRIPTION": "Il LOFRENE 500 è un polietilene ad alto peso molecolare, atossico ed idoneo al contatto con gli alimenti. Le sue caratteristiche ne suggeriscono l’uso per la realizzazione di taglieri, ceppi, piani di lavoro e pale per l'industria alimentare, la ristorazione collettiva, il catering, l’allestimento di negozi oltre che l' uso domestico\n\nLa possibilità di realizzare taglieri in vari spessori e dimensioni, rettangolari, quadrati o tondi, con o senza scolo e maniglia consente di soddisfare le più svariate esigenze del cliente.\n\nIl LOFRENE 500 è disponibile in un’ampia gamma di colori: verde, giallo, rosso, blu, graniglia (ed altri) oltre al classico bianco.\n\nTutti i colori sono atossici e idonei al contatto con gli alimenti.",
+            "LABEL": "Taglieri e ceppi"
+        },
+        "POLIETILENE": {
+            "ADVANTAGES": "\t- materiale autolubrificante \n\t- basso coefficiente di attrito \n\t- elevata resistenza ad usura ed abrasione, rottura e urti \n\t- elevata resistenza a corrosione, acidi e agenti chimici \n\t- non assorbe acqua \n\t- eccellente lavorabilità",
+            "AREA": "",
+            "DESCRIPTION": "Il LOFRENE è un polietilene ad alto ed altissimo peso molecolare che trova applicazione in un vastissimo numero di settori.\nLe sue caratteristiche di materiale autolubrificante, la resistenza all'usura e all'abrasione, la garanzia di igiene ne consigliano l'uso in settori che spaziano dall' industria alimentare alla ristorazione, alla movimentazione interna in tutti i settori industriali oltre che nell' industria edile ed estrattiva.\n\nLa ns. gamma comprende:\n\n\t- lastre in LOFRENE 500 (HMW-HDPE polietilene ad alto peso molecolare)\n\t- lastre in LOFRENE 1000 (UHMW-HDPE polietilene ad altissimo peso molecolare)\n\t- tondi in LOFRENE 1000\n\nOltre che nel colore bianco, il LOFRENE 500 viene prodotto nei colori verde, nero, blu, giallo, rosso, graniglia. Altri colori possono essere forniti su richiesta. \n\nIl LOFRENE 500 bianco o colorato è idoneo al contatto con gli alimenti.\n\nll LOFRENE 1000 per le proprie eccellenti caratteristiche meccaniche, oltre che il basso coefficiente di attrito, viene ampiamente utilizzato per la realizzazione di guidacatene, guide di scorrimento, profili fresati a disegno per i più diversi settori industriali.",
+            "LABEL": "Polietilene"
+        },
+        "PTFE": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "<strong>PTFE CARICATO</strong>\n\nA volte, particolari applicazioni ed esigenze tecniche non possono essere soddisfatte con l’uso di PTFE puro.\nIn questi casi l’aggiunta di cariche di vario tipo al PTFE consente di migliorarne alcune caratteristiche quali: resistenza all’usura, coefficiente di dilatazione, conducibilità termica ed antistatica, deformazione/resistenza sotto carico, flessibilità e resistenza a sollecitazioni a fatica, coefficiente di attrito, proprietà dielettriche.\nIl PTFE vergine può essere additivato con cariche standard (vetro, bronzo, grafite, carbone) o speciali (es.: carbografite, PEEK, PPS, fluoruro di calcio, quarzo, vetro sferico, polimmide, fibra di carbonio, bisolfuro di molibdeno).\nQui di seguito elenchiamo brevemente le principali tipologie di PTFE caricato standard:\n\n<strong>PTFE + VETRO</strong>\n\nCaratteristiche generali:\n\n\t-Elevata resistenza all’usura e all’abrasione.\n\t-Elevata resistenza chimica (ad eccezione degli alcali e dell’acido fluoridrico).\n\n<strong>PTFE + GRAFITE</strong>\n\nCaratteristiche generali:\n\t-Coefficiente d’attrito estremamente basso.\n\t-Media resistenza alla compressione. Resistenza chimica elevata. Abrasione della controsuperficie estremamente bassa.\n\t-Buona dissipazione termica.\n\n<strong>PTFE + CARBONE</strong>\n\nCaratteristiche generali:\n\t-Buona conducibilità termica ed elettrica.\n\t-Buona resistenza alla deformazione. Elevate proprietà di resistenza ai carichi combinate con basso coefficiente d’attrito ed elevata resistenza all’usura.\n\t-Elevata resistenza chimica.\n\n<strong>PTFE + BRONZO</strong>\n\nCaratteristiche generali:\n\t-Elevata resistenza alla compressione.\n\t-Elevata resistenza all’usura ed elevata conducibilità termica.\n\n\n\n<strong>PTFE VERGINE</strong>\n\nIl PTFE (politetrafluoroetilene) è un fluoropolimero con particolari caratteristiche di resistenza termica e chimica.\nLe principali caratteristiche del PTFE sono:\n\n\t- basso coefficiente di attrito\n\t- eccellenti doti di resistenza ad agenti chimici\n\t- elevato grado di antiaderenza\n\t- elevato grado di resistenza alle basse ed alte temperature (da –200° C a +260° C)\n\t- eccellenti proprietà dielettriche\nLa ns. gamma di semilavorati di PTFE comprende:\n\t- lastre \n\t- tubi e tondi estrusi\n\t- manicotti stampati\n\t- nastri sfogliati\n\n<strong>Cementazione</strong>\n\nI prodotti in PTFE possono essere sottoposti al processo di cementazione allo scopo di agevolarne l’incollaggio su superfici metalliche, gomme o plastiche.",
+            "LABEL": "PTFE"
+        },
+        "POLICARBONATO": {
+            "ADVANTAGES": "\t- elevata resistenza all’urto \n\t- minimo rischio di rottura \n\t- leggerezza \n\t- eccellente resistenza agli agenti atmosferici \n\t- ottima trasmissione della luce \n\t- eccellente lavorabilità",
+            "AREA": "",
+            "DESCRIPTION": "Lastre in policarbonato\nLe lastre in policarbonato si distinguono principalmente per la resistenza alla rottura e alla temperatura che, unite all’ elevata trasparenza, ne suggeriscono l’impiego per la realizzazione di protezioni antinfortunistiche nel settore industriale.\nIl policarbonato può essere facilmente lavorato con attrezzature standard di officina ed è termoformabile.\nLe lastre in policarbonato vengono prodotte, oltre che nella versione standard, anche in versioni specifiche per applicazioni che richiedono particolare resistenza ai raggi UV, alla fiamma, all’abrasione.",
+            "LABEL": "Policarbonato"
+        },
+        "METACRILATO": {
+            "ADVANTAGES": "\t- elevata trasparenza ottica anche in alti spessori\n\t- resistenza ai raggi UV\n\t- leggerezza\n\t- ottima stabilità termica\n\t- basso assorbimento di acqua",
+            "AREA": "\t- costruzioni aeronautiche e navali\n\t- motonautica\n\t- settore automobilistico\n\t- settore ferroviario\n\t- apparecchiature industriali, chimiche, scientifiche\n\t- complementi di arredo\n\t- illuminazione\n\t- oggetti di design",
+            "DESCRIPTION": "Le lastre acriliche (PMMA) sono state inizialmente ideate per la costruzione di finestrini e cupole di aerei che richiedono resistenza termica e meccanica agli agenti atmosferici ed alla pressurizzazione particolarmente elevate.\n\nIn seguito l’utilizzo di queste lastre si è diffuso praticamente in ogni settore industriale, artigianale ed edile sostituendo in molti casi vetri e cristalli e facendosi apprezzare per le proprie caratteristiche di resistenza meccanica, stabilità di colore e durata.\n\nLe lastre acriliche colate sono la soluzione ideale per insegne, targhe, pubblicità luminose e cartellonistica e trovano ampio impiego oltre che in quello nautico ed aeronautico, anche in molti altri settori industriali quali, ad esempio, quello sanitario e medicale.\n\nLa vasta gamma di colori, finiture superficiali, effetti ottici consentono di realizzare complementi di arredo, illuminazione e oggetti di design particolarmente accattivanti\n\n<strong>Blocchi, tubi lucidati, tondi e quadri in metacrilato colato</strong>\n\nLa ns. gamma è completata da una serie di altri prodotti: blocchi, tubi lucidati, tondi pieni e barre quadre in metacrilato",
+            "LABEL": "Metacrilato"
+        },
+        "PVC_ESPANSO": {
+            "ADVANTAGES": "",
+            "AREA": "",
+            "DESCRIPTION": "TBD",
+            "LABEL": "PVC espanso"
+        }
     }
 }

@@ -3,153 +3,141 @@ export const subProducts: any = {
   Tessuti: [
     'Tessuti ptfe',
     'Tessuti siliconati',
-    'PTFE e UNMW',
+    'PTFE e UHMW',
     'Bobine',
     'Nastri trasportatori',
     'Fogli antiaderenti'
   ]
 };
 
-export const mainProducts: any = ['Tessuti', 'Poliuretano', 'Gomme e materiali isolanti', 'Materie plastiche'];
+export const mainProducts: any = ['TESSUTI', 'POLIURETANO', 'GOMME_E_MATERIALI_ISOLANTI', 'MATERIE_PLASTICHE'];
 
 export const subTrees: any = {
-  'Gomme e materiali isolanti': {
+  GOMME_E_MATERIALI_ISOLANTI: {
     children: [
       {
         children: [
           {
-            label: 'Compatta'
+            value: 'COMPATTA'
           },
           {
-            label: 'Espansa'
+            value: 'ESPANSA'
           }
         ],
-        label: 'Gomma siliconica'
+        value: 'GOMMA_SILICONICA'
       },
       {
-        label: 'Altre gomme',
+        value: 'ALTRE_GOMME',
       },
       {
-        label: 'Bakelite',
+        value: 'BAKELITE',
       },
       {
-        label: 'Vetroresina',
+        value: 'VETRORESINA',
       },
       {
-        label: 'Isolanti in fibra di vetro'
+        value: 'ISOLANTI_IN_FIBRA_DI_VETRO'
       },
       {
-        label: 'Altri'
+        value: 'ALTRI'
       }
     ],
-    label: 'Gomme e materiali isolanti',
+    value: 'GOMME_E_MATERIALI_ISOLANTI',
   },
-  'Materie plastiche': {
+  MATERIE_PLASTICHE: {
     children: [
       {
         children: [
           {
-            label: 'Semilavorati'
+            value: 'SEMILAVORATI_MP'
           },
           {
-            label: 'Taglieri e ceppi'
+            value: 'TAGLIERI_E_CEPPI'
           }
         ],
-        label: 'Polietilene'
+        value: 'POLIETILENE'
       },
       {
-        label: 'Poliammidi - PVC - POM - PP',
+        value: 'POLIAMMIDI',
       },
       {
-        label: 'PTFE',
+        value: 'PTFE',
       },
       {
-        label: 'Policarbonato',
+        value: 'POLICARBONATO',
       },
       {
-        label: 'Metacrilato'
+        value: 'METACRILATO'
       },
       {
-        label: 'PVC Espanso'
+        value: 'PVC_ESPANSO'
       }
     ],
-    label: 'Materie plastiche',
+    value: 'MATERIE_PLASTICHE',
   },
-  Poliuretano: {
+  POLIURETANO: {
     children: [
       {
         children: [
           {
-            label: 'Semilavorati'
+            value: 'SEMILAVORATI'
           },
           {
-            label: 'Estrattiva'
+            value: 'ESTRATTIVA'
           },
           {
-            label: 'Sgombraneve'
+            value: 'SGOMBRANEVE'
           },
           {
-            label: 'Agricoltura e zootecnica'
+            value: 'AGRICOLTURA_E_ZOOTECNICA'
           },
           {
-            label: 'Industria edile'
+            value: 'INDUSTRIA_EDILE'
           },
           {
-            label: 'Applicazioni meccaniche'
+            value: 'APPLICAZIONI_MECCANICHE'
           }
         ],
-        label: 'Poliuretano compatto'
+        value: 'POLIURETANO_COMPATTO'
       },
       {
-        label: 'Poliuretano espanso',
+        value: 'POLIURETANO_ESPANSO',
       },
       {
-        label: 'Racle serigrafia',
+        value: 'RACLE_SERIGRAFIA',
       }
     ],
-    label: 'Poliuretano',
+    value: 'POLIURETANO',
   },
-  Tessuti: {
+  TESSUTI: {
     children: [
       {
         children: [
           {
-            label: 'Adesivi e non adesivi'
+            value: 'ADESIVI_E_NON'
           },
           {
-            label: 'Antistatici adesivi e non'
+            value: 'ANTISTATICI_E_NON'
           }
         ],
-        label: 'Tessuti ptfe'
+        value: 'TESSUTI_PTFE'
       },
       {
-        label: 'Tessuti siliconati',
+        value: 'SILICONATI',
       },
       {
-        label: 'PTFE e UNMW',
+        value: 'PTFE_UHMW',
       },
       {
-        label: 'Bobine',
+        value: 'BOBINE',
       },
       {
-        label: 'Nastri trasportatori',
+        value: 'NASTRI_TRASPORTATORI',
       },
       {
-        label: 'Fogli antiaderenti'
+        value: 'ANTIADERENTI'
       },
     ],
-    label: 'Tessuti',
+    value: 'TESSUTI',
   }
-};
-
-export const products: any = {
-  'Adesivi e non adesivi': "Adesivi e non adesivi is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  'Antistatici adesivi e non': "Antistatici adesivi e non is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  Bobine: "Bobine is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  'Fogli antiaderenti': "Fogli antiaderenti is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  'Nastri trasportatori': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  'PTFE e UNMW': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  Tessuti: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  'Tessuti ptfe': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-  'Tessuti siliconati': "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
 };

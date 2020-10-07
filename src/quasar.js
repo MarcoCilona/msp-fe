@@ -29,7 +29,8 @@ import {
   QMenu,
   QExpansionItem,
   QForm,
-  QInput
+  QInput,
+  QImg
 } from 'quasar';
 
 Vue.use(Quasar, {
@@ -57,7 +58,8 @@ Vue.use(Quasar, {
     QMenu,
     QExpansionItem,
     QForm,
-    QInput
+    QInput,
+    QImg
   },
   directives: {
   },

@@ -16,11 +16,18 @@ div
       .ws-break-spaces(v-if='$t(`PRODUCTS.${selected}.AREA`)')
         h5.mt-0.mb-2 Settori di utilizzo
         p {{ $t(`PRODUCTS.${selected}.AREA`) }}
+      .row.justify-space-around.product__images
+        img.ma-2.col-3.d-flex(
+          v-for='(img, index) in imgs'
+          :key='index'
+          :src="require(`@/assets/products/${imgFolder}/${img}`)"
+          spinner-color="white"
+          style="height: 140px")
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { subTrees } from '@/dictionary/index';
+import { productsInfo, subTrees } from '@/dictionary/index';
 
 @Component
 export default class Product extends Vue {
@@ -29,6 +36,15 @@ export default class Product extends Vue {
   selected: string = '';
   subcategories: string[] = [];
   productTree: any[] = [];
+
+  get imgs() {
+    return productsInfo[this.selected].imgs;
+  }
+
+  get imgFolder() {
+    console.log('productsInfo[this.selected]', productsInfo[this.selected]);
+    return productsInfo[this.selected].imgFolder;
+  }
 
   mounted() {
     // Saving the category of the product
@@ -92,6 +108,11 @@ export default class Product extends Vue {
 .product-image {
   height: 300px;
   width: 100%;
+}
+
+.product__images {
+  max-height: 466px;
+  overflow-y: auto;
 }
 
 @include respond-above(xs) {

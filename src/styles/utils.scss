@@ -54,7 +54,7 @@ $directions: (
 }
 
 // Content alignment
-$justifyContentValues: (center, flex-start, flex-end);
+$justifyContentValues: (center, flex-start, flex-end, space-between, space-around);
 @each $value in $justifyContentValues {
   .justify-#{$value} {
     justify-content: #{$value};

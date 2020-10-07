@@ -156,7 +156,7 @@ export const productsInfo: any = {
     imgs: []
   },
   ALTRI: {
-    imgFolder: '',
+    imgFolder: 'altri',
     imgs: []
   },
   ANTIADERENTI: {
@@ -172,8 +172,8 @@ export const productsInfo: any = {
     imgs: ['img_10.jpg', 'img_1.jpg', 'img_0.jpg', 'img_11.jpg', 'img_13.jpg', 'img_2.jpg', 'img_3.jpg', 'img_12.jpg', 'img_16.jpg', 'img_7.jpg', 'img_6.jpg', 'img_15.jpg', 'img_4.jpg', 'img_5.jpg', 'img_14.jpg', 'img_8.jpg', 'img_9.jpg']
   },
   BAKELITE: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'bakelite',
+    imgs: ['img_1.jpg', 'img_0.jpg', 'img_2.jpg', 'img_3.jpg', 'img_6.jpg', 'img_4.jpg', 'img_5.jpg']
   },
   BOBINE: {
     imgFolder: '',
@@ -193,8 +193,8 @@ export const productsInfo: any = {
     imgs: ['img_1.jpg', 'img_2.jpg', 'img_3.jpg', 'img_6.jpg', 'img_5.jpg']
   },
   GOMMA_SILICONICA: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'gomma-siliconica',
+    imgs: ['img_1.jpg', 'img_0.jpg']
   },
   GOMME_E_MATERIALI_ISOLANTI: {
     imgFolder: '',
@@ -205,32 +205,32 @@ export const productsInfo: any = {
     imgs: ['img_1.jpg', 'img_0.jpg', 'img_2.jpg', 'img_3.jpg', 'img_7.jpg', 'img_6.jpg', 'img_4.jpg', 'img_5.jpg']
   },
   ISOLANTI_IN_FIBRA_DI_VETRO: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'isolanti-fibra-vetro',
+    imgs: ['img_1.jpg', 'img_0.jpg']
   },
   MATERIE_PLASTICHE: {
     imgFolder: '',
     imgs: []
   },
   METACRILATO: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'metacrilato',
+    imgs: ['img_1.jpg', 'img_0.jpg', 'img_2.jpg']
   },
   NASTRI_TRASPORTATORI: {
     imgFolder: 'nastri-trasportatori',
     imgs: ['img_10.jpg', 'img_38.jpg', 'img_1.jpg', 'img_39.jpg', 'img_11.jpg', 'img_13.jpg', 'img_12.jpg', 'img_16.jpg', 'img_17.jpg', 'img_29.jpg', 'img_15.jpg', 'img_14.jpg', 'img_28.jpg', 'img_40.jpg', 'img_41.jpg', 'img_31.jpg', 'img_19.jpg', 'img_32.jpg', 'img_37.jpg', 'img_36.jpg', 'img_22.jpg', 'img_21.jpg']
   },
   POLIAMMIDI: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'poliammidi',
+    imgs: ['img_0.jpg']
   },
   POLICARBONATO: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'policarbonato',
+    imgs: ['img_0.jpg']
   },
   POLIETILENE: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'polietilene',
+    imgs: ['img_1.jpg', 'img_0.jpg']
   },
   POLIURETANO: {
     imgFolder: '',
@@ -245,15 +245,15 @@ export const productsInfo: any = {
     imgs: ['img_1.jpg', 'img_0.jpg']
   },
   PTFE: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'ptfe',
+    imgs: ['img_1.jpg', 'img_0.jpg']
   },
   PTFE_UHMW: {
     imgFolder: 'tessutiPtfe',
     imgs: ['img_0.jpg']
   },
   PVC_ESPANSO: {
-    imgFolder: '',
+    imgFolder: 'pvc-espanso',
     imgs: []
   },
   RACLE_SERIGRAFIA: {
@@ -265,8 +265,8 @@ export const productsInfo: any = {
     imgs: ['img_10.jpg', 'img_1.jpg', 'img_11.jpg', 'img_13.jpg', 'img_12.jpg', 'img_16.jpg', 'img_17.jpg', 'img_15.jpg', 'img_5.jpg', 'img_14.jpg']
   },
   SEMILAVORATI_MP: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'polietilene-semilavorati',
+    imgs: ['img_1.jpg', 'img_0.jpg']
   },
   SGOMBRANEVE: {
     imgFolder: 'sgombraneve',
@@ -277,8 +277,8 @@ export const productsInfo: any = {
     imgs: ['img_1.jpg']
   },
   TAGLIERI_E_CEPPI: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'taglieri-ceppi',
+    imgs: ['img_1.jpg', 'img_0.jpg', 'img_2.jpg']
   },
   TESSUTI: {
     imgFolder: 'tessuti',
@@ -289,7 +289,7 @@ export const productsInfo: any = {
     imgs: []
   },
   VETRORESINA: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'vetro-resina',
+    imgs: ['img_0.jpg']
   }
 };

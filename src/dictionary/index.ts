@@ -218,7 +218,7 @@ export const productsInfo: any = {
   },
   NASTRI_TRASPORTATORI: {
     imgFolder: 'nastri-trasportatori',
-    imgs: ['img_10.jpg', 'img_38.jpg', 'img_1.jpg', 'img_39.jpg', 'img_11.jpg', 'img_13.jpg', 'img_12.jpg', 'img_16.jpg', 'img_17.jpg', 'img_29.jpg', 'img_15.jpg', 'img_14.jpg', 'img_28.jpg', 'img_40.jpg', 'img_41.jpg', 'img_31.jpg', 'img_19.jpg', 'img_32.jpg', 'img_37.jpg', 'img_36.jpg', 'img_22.jpg', 'img_21.jpg']
+    imgs: ['img_10.jpg', 'img_38.jpg', 'img_1.jpg', 'img_39.jpg', 'img_11.jpg', 'img_13.jpg', 'img_12.jpg', 'img_16.jpg', 'img_17.jpg', 'img_29.jpg', 'img_15.jpg', 'img_14.jpg', 'img_28.jpg', 'img_31.jpg', 'img_19.jpg', 'img_32.jpg', 'img_37.jpg', 'img_36.jpg', 'img_22.jpg', 'img_21.jpg']
   },
   POLIAMMIDI: {
     imgFolder: 'poliammidi',

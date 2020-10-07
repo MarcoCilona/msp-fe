@@ -148,8 +148,8 @@ export const productsInfo: any = {
     imgs: []
   },
   AGRICOLTURA_E_ZOOTECNICA: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'agricoltura-zootecnica',
+    imgs: ['img_0.jpg']
   },
   ALTRE_GOMME: {
     imgFolder: '',
@@ -168,8 +168,8 @@ export const productsInfo: any = {
     imgs: []
   },
   APPLICAZIONI_MECCANICHE: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'applicazioni-meccaniche',
+    imgs: ['img_10.jpg', 'img_1.jpg', 'img_0.jpg', 'img_11.jpg', 'img_13.jpg', 'img_2.jpg', 'img_3.jpg', 'img_12.jpg', 'img_16.jpg', 'img_7.jpg', 'img_6.jpg', 'img_15.jpg', 'img_4.jpg', 'img_5.jpg', 'img_14.jpg', 'img_8.jpg', 'img_9.jpg']
   },
   BAKELITE: {
     imgFolder: '',
@@ -189,8 +189,8 @@ export const productsInfo: any = {
     imgs: []
   },
   ESTRATTIVA: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'estrattiva',
+    imgs: ['img_1.jpg', 'img_2.jpg', 'img_3.jpg', 'img_6.jpg', 'img_5.jpg']
   },
   GOMMA_SILICONICA: {
     imgFolder: '',
@@ -201,8 +201,8 @@ export const productsInfo: any = {
     imgs: []
   },
   INDUSTRIA_EDILE: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'edile',
+    imgs: ['img_1.jpg', 'img_0.jpg', 'img_2.jpg', 'img_3.jpg', 'img_7.jpg', 'img_6.jpg', 'img_4.jpg', 'img_5.jpg']
   },
   ISOLANTI_IN_FIBRA_DI_VETRO: {
     imgFolder: '',
@@ -237,12 +237,12 @@ export const productsInfo: any = {
     imgs: []
   },
   POLIURETANO_COMPATTO: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'poliuretano-compatto',
+    imgs: ['img_0.jpg']
   },
   POLIURETANO_ESPANSO: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'poliuretano-espanso',
+    imgs: ['img_1.jpg', 'img_0.jpg']
   },
   PTFE: {
     imgFolder: '',
@@ -257,20 +257,20 @@ export const productsInfo: any = {
     imgs: []
   },
   RACLE_SERIGRAFIA: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'racle-serigrafia',
+    imgs: ['img_1.jpg', 'img_0.jpg']
   },
   SEMILAVORATI: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'semilavorati',
+    imgs: ['img_10.jpg', 'img_1.jpg', 'img_11.jpg', 'img_13.jpg', 'img_12.jpg', 'img_16.jpg', 'img_17.jpg', 'img_15.jpg', 'img_5.jpg', 'img_14.jpg']
   },
   SEMILAVORATI_MP: {
     imgFolder: '',
     imgs: []
   },
   SGOMBRANEVE: {
-    imgFolder: '',
-    imgs: []
+    imgFolder: 'sgombraneve',
+    imgs: ['img_1.jpg', 'img_2.jpg', 'img_3.jpg', 'img_7.jpg', 'img_6.jpg', 'img_4.jpg', 'img_5.jpg']
   },
   SILICONATI: {
     imgFolder: 'siliconati',

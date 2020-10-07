@@ -112,7 +112,15 @@ export default class Product extends Vue {
 
 .product__images {
   max-height: 466px;
+  padding: 30px;
   overflow-y: auto;
+
+  img {
+    transition: all .2 ease-in-out;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
 }
 
 @include respond-above(xs) {

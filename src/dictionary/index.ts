@@ -282,7 +282,7 @@ export const productsInfo: any = {
   },
   TESSUTI: {
     imgFolder: 'tessuti',
-    imgs: ['img_1.jpg', 'img_2.jpg', 'img_3.jpg', 'img_4.jpg']
+    imgs: ['img_1.jpg']
   },
   TESSUTI_PTFE: {
     imgFolder: '',

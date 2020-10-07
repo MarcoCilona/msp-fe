@@ -28,7 +28,7 @@ div
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { productsInfo, subTrees } from '@/dictionary/index';
-
+// 105 mb
 @Component
 export default class Product extends Vue {
   expanded: string[] = [];

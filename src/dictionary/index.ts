@@ -4,7 +4,6 @@ export const subProducts: any = {
     'Tessuti ptfe',
     'Tessuti siliconati',
     'PTFE e UHMW',
-    'Bobine',
     'Nastri trasportatori',
     'Fogli antiaderenti'
   ]
@@ -129,9 +128,6 @@ export const subTrees: any = {
         value: 'PTFE_UHMW',
       },
       {
-        value: 'BOBINE',
-      },
-      {
         value: 'NASTRI_TRASPORTATORI',
       },
       {
@@ -175,11 +171,6 @@ export const productsInfo: any = {
     imgFolder: 'bakelite',
     imgs: ['img_1.jpg', 'img_0.jpg', 'img_2.jpg', 'img_3.jpg', 'img_6.jpg', 'img_4.jpg', 'img_5.jpg']
   },
-  BOBINE: {
-    imgFolder: '',
-    imgs: []
-  },
-
   COMPATTA: {
     imgFolder: '',
     imgs: []

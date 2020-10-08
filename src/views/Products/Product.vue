@@ -16,8 +16,8 @@ div
       .ws-break-spaces(v-if='$t(`PRODUCTS.${selected}.AREA`)')
         h5.mt-0.mb-2 Settori di utilizzo
         p {{ $t(`PRODUCTS.${selected}.AREA`) }}
-      .row.justify-space-between.product__images
-        img.ma-1.col-xs-12.col-sm-3.d-flex(
+      .row.product__images
+        img.ma-7.col-xs-12.col-sm-3.d-flex(
           v-for='(img, index) in imgs'
           :key='index'
           :src="require(`@/assets/products/${imgFolder}/${img}`)"
@@ -114,7 +114,6 @@ export default class Product extends Vue {
 }
 
 .product__images {
-  height: 42%;
   padding: 2px;
   overflow-y: auto;
 }
@@ -147,7 +146,7 @@ export default class Product extends Vue {
     img {
       transition: all .2 ease-in-out;
       &:hover {
-        transform: scale(1.5) translate(16%, 16%);
+        transform: scale(1.5);
       }
     }
   }

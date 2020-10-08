@@ -8,7 +8,7 @@ div
       q-tree(:nodes='productTree', :expanded.sync="expanded", :selected="selected", labelKey='value' node-key='value', @update:selected='handleSelected')
         template(v-slot:default-header="prop") {{ prop.node.value && $t(`PRODUCTS.${prop.node.value}.LABEL`) }}
     .content__right-column(v-if='selected')
-      h4.mt-2.mb-3 {{ $t(`PRODUCTS.${selected}.LABEL`) }}
+      h4.mt-2.mb-3.content__header {{ $t(`PRODUCTS.${selected}.LABEL`) }}
       p.ws-break-spaces(v-html='$t(`PRODUCTS.${selected}.DESCRIPTION`)')
       .ws-break-spaces(v-if='$t(`PRODUCTS.${selected}.ADVANTAGES`)')
         h5.mt-0.mb-2 Vantaggi
@@ -16,8 +16,8 @@ div
       .ws-break-spaces(v-if='$t(`PRODUCTS.${selected}.AREA`)')
         h5.mt-0.mb-2 Settori di utilizzo
         p {{ $t(`PRODUCTS.${selected}.AREA`) }}
-      .row.justify-space-around.product__images
-        img.ma-2.col-3.d-flex(
+      .row.justify-space-between.product__images
+        img.ma-1.col-xs-12.col-sm-3.d-flex(
           v-for='(img, index) in imgs'
           :key='index'
           :src="require(`@/assets/products/${imgFolder}/${img}`)"
@@ -42,7 +42,6 @@ export default class Product extends Vue {
   }
 
   get imgFolder() {
-    console.log('productsInfo[this.selected]', productsInfo[this.selected]);
     return productsInfo[this.selected].imgFolder;
   }
 
@@ -73,6 +72,10 @@ export default class Product extends Vue {
 .content {
   display: flex;
   flex-direction: row;
+
+  &__header {
+    font-size: 1.9rem;
+  }
 
   &__left-column {
     display: flex;
@@ -111,20 +114,18 @@ export default class Product extends Vue {
 }
 
 .product__images {
-  max-height: 466px;
-  padding: 30px;
+  height: 42%;
+  padding: 2px;
   overflow-y: auto;
-
-  img {
-    transition: all .2 ease-in-out;
-    &:hover {
-      transform: scale(1.5);
-    }
-  }
 }
 
 @include respond-above(xs) {
   .content {
+
+    &__header {
+      font-size: 2rem;
+    }
+
     &__left-column {
       width: 30%;
     }
@@ -140,7 +141,16 @@ export default class Product extends Vue {
       margin-left: 29%;
       width: calc(100vw - 29%);
     }
-}
+  }
+
+  .product__images {
+    img {
+      transition: all .2 ease-in-out;
+      &:hover {
+        transform: scale(1.5) translate(16%, 16%);
+      }
+    }
+  }
 }
 </style>
 

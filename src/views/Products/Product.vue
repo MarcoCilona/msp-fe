@@ -115,6 +115,8 @@ export default class Product extends Vue {
 
 .product__images {
   padding: 2px;
+  height: auto;
+  max-height: 400px;
   overflow-y: auto;
 }
 

@@ -17,7 +17,7 @@ div
         h5.mt-0.mb-2 Settori di utilizzo
         p {{ $t(`PRODUCTS.${selected}.AREA`) }}
       .row.product__images
-        img.ma-7.col-xs-12.col-sm-3.d-flex(
+        img.col-xs-12.col-sm-3.d-flex(
           v-for='(img, index) in imgs'
           :key='index'
           :src="require(`@/assets/products/${imgFolder}/${img}`)"
@@ -114,10 +114,13 @@ export default class Product extends Vue {
 }
 
 .product__images {
-  padding: 2px;
   height: auto;
   max-height: 400px;
   overflow-y: auto;
+
+  img~img {
+    margin-top: 5px;
+  }
 }
 
 @include respond-above(xs) {
@@ -145,7 +148,9 @@ export default class Product extends Vue {
   }
 
   .product__images {
+    padding: 2px 12px 2px 2px;
     img {
+      margin: 28px !important;
       transition: all .2 ease-in-out;
       &:hover {
         transform: scale(1.5);

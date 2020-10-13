@@ -2,7 +2,7 @@
 .ph-5.contact
   .contact-form
     h5 Contattaci
-    q-form.q-gutter-md(@reset="onReset")
+    q-form.q-gutter-md(@reset="onReset" @submit="onSubmit")
       q-input(v-model='name', label='Name', lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']")
       q-input(v-model='email', label='Email', type="email", lazy-rules
@@ -21,6 +21,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import { SendMailResource } from '@/axios/app.service';
 
 @Component
 export default class ContactPage extends Vue {
@@ -29,14 +30,28 @@ export default class ContactPage extends Vue {
   company: string = '';
   message: string = '';
 
-  // onSubmit() {
-  //   this.$q.notify({
-  //     color: 'green-4',
-  //     icon: 'cloud_done',
-  //     message: 'Submitted',
-  //     textColor: 'white'
-  //   });
-  // }
+  async onSubmit() {
+    const sendMailResponse = await SendMailResource.sendMail({
+      company: this.company,
+      email: this.email,
+      emailMessage: this.message,
+      name: this.name
+    }) as any;
+
+    if (sendMailResponse.isOk) {
+      (this as any).$q.notify({
+        message: 'Mail correttamente inviata',
+        position: 'top',
+        type: 'positive'
+      });
+    } else {
+      (this as any).$q.notify({
+        message: 'Errore nell\'invio della mail, riprovare',
+        position: 'top',
+        type: 'negative'
+      });
+    }
+  }
 
   onReset() {
     this.name = '';

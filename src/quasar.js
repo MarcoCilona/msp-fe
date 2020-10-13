@@ -30,7 +30,8 @@ import {
   QExpansionItem,
   QForm,
   QInput,
-  QImg
+  QImg,
+  Notify
 } from 'quasar';
 
 Vue.use(Quasar, {
@@ -64,5 +65,6 @@ Vue.use(Quasar, {
   directives: {
   },
   plugins: {
+    Notify
   },
 });

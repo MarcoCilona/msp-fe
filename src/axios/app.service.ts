@@ -4,7 +4,6 @@ import axios, { AxiosPromise, AxiosResponse, AxiosError } from 'axios';
 const repository = axios.create({
   baseURL: process.env.VUE_APP_URL,
 });
-console.log('process.env', process.env);
 // const responseInterceptedStatuses = [400, 404];
 
 interface CustomResponse {

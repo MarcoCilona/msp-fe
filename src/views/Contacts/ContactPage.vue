@@ -12,7 +12,7 @@
       q-input(v-model='message', label='Message', autogrow, :rules="[ val => val && val.length > 0 || 'Please type something']")
       .actions
         q-btn(label="Reset" type="reset" color="primary" flat class="q-ml-sm")
-        q-btn(label="Submit" type="submit" color="primary")
+        q-btn(label="Invia" type="submit" color="primary")
   .company-info
     h5.mb-0 Dove siamo
     span Via Gorizia, 42 • 21047 SARONNO (VA) - ITALIA

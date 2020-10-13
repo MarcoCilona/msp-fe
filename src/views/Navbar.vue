@@ -11,7 +11,7 @@ q-toolbar.text-white.position-fixed.shadow-2.navbar
             :key='index'
             expand-separator
             :label="navItem.label")
-            .ph-5.pv-4.sidebar-product(v-for='(product, index) in products' :key='index', @click='$router.push({ path: `/product/${product}` })') {{ product && $t(`PRODUCTS.${product}.LABEL`) }}
+            .ph-5.pv-4.product(v-for='(product, index) in products' :key='index', :class='{ "product--is-selected": $route.params.name === product }', @click='$router.push({ path: `/product/${product}` })') {{ product && $t(`PRODUCTS.${product}.LABEL`) }}
   q-space
   q-btn.menu-items(
     v-for='(navItem, index) in options',
@@ -24,7 +24,7 @@ q-toolbar.text-white.position-fixed.shadow-2.navbar
         transition-show="scale"
         transition-hide="scale")
         q-list(style="min-width: 100px")
-          q-item.product-category(v-for='(product, index) in products' :key='index')
+          q-item.product-category.product(v-for='(product, index) in products' :key='index', :class='{ "product--is-selected": $route.params.name === product }')
             q-item-section.cursor-pointer(@click='$router.push({ path: `/product/${product}` })') {{ $t(`PRODUCTS.${product}.LABEL`) }}
   .cursor-pointer(@click='handleLanguageSwitch')
     | {{ $i18n.locale.toUpperCase() }}
@@ -116,11 +116,16 @@ export default class Navbar extends Vue {
   display: none !important;
 }
 
-.sidebar-product {
-  background-color: #0fb132;
+.product {
+  background-color: #26710f;
+  color: white;
 
-  &~.sidebar-product {
+  &~.product {
     border-top: 1px solid #b7b7b7;
+  }
+
+  &--is-selected {
+    background-color: #0fb132;
   }
 }
 

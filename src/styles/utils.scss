@@ -86,3 +86,10 @@ $whiteSpaceValue: (break-spaces, pre, pre-line, pre-wrap);
     white-space: #{$value};
   }
 }
+
+$cursorValue: (default, pointer);
+@each $value in $cursorValue {
+  .cursor-#{$value} {
+    white-space: #{$value};
+  }
+}

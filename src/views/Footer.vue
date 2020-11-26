@@ -8,21 +8,20 @@
     span.footer--is-title.footer__navigator__title Esplora
     .footer__navigator__links
       .footer__navigator__links__row
-        span Chi siamo
-        span Prodotti
+        span.cursor-pointer(@click='$router.push({ path: `/azienda` })') Chi siamo
+        span.cursor-pointer(@click='$router.push({ path: `/product/TESSUTI` })') Prodotti
       .footer__navigator__links__row
-        span Applicazioni
-        span Contatti
+        span.cursor-pointer(@click='$router.push({ path: `/contacts` })') Contatti
   .column.footer__company-info
     span.footer--is-title.footer__company-info__title Info
     .footer__company-info__row
       .footer__company-info__row__address.column
-        span Via lorem ipsum, 23
-        span Los Angeles, (VA), Italia
+        span Via Gorizia, 42
+        span 21047 Saronno, (VA), Italia
       .footer__company-info__row__contacts.column
-        span Tel. 0233-1231231
+        span Tel. 02 960 6855
         span
-          a(href = "mailto: email@email.com") email@email.com
+          a(href="mailto: email@email.com") email@email.com
 </template>
 
 <script lang="ts">

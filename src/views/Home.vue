@@ -30,7 +30,6 @@ export default class Home extends Vue {
   slide: number = 1;
 
   get shorcutsList() {
-    console.log(this.sortKeys(subTrees));
     return this.sortKeys(subTrees).map(({ value }) => value);
   }
 

@@ -1,14 +1,4 @@
 // eslint-disable-next-line import/prefer-default-export
-export const subProducts: any = {
-  Tessuti: [
-    'Tessuti ptfe',
-    'Tessuti siliconati',
-    'PTFE e UHMW',
-    'Nastri trasportatori',
-    'Fogli antiaderenti'
-  ]
-};
-
 export const mainProducts: any = ['TESSUTI', 'POLIURETANO', 'GOMME_E_MATERIALI_ISOLANTI', 'MATERIE_PLASTICHE'];
 
 export const subTrees: any = {
@@ -41,6 +31,7 @@ export const subTrees: any = {
         value: 'ALTRI'
       }
     ],
+    order: 4,
     value: 'GOMME_E_MATERIALI_ISOLANTI',
   },
   MATERIE_PLASTICHE: {
@@ -72,6 +63,7 @@ export const subTrees: any = {
         value: 'PVC_ESPANSO'
       }
     ],
+    order: 3,
     value: 'MATERIE_PLASTICHE',
   },
   POLIURETANO: {
@@ -106,19 +98,12 @@ export const subTrees: any = {
         value: 'RACLE_SERIGRAFIA',
       }
     ],
+    order: 2,
     value: 'POLIURETANO',
   },
   TESSUTI: {
     children: [
       {
-        children: [
-          {
-            value: 'ADESIVI_E_NON'
-          },
-          {
-            value: 'ANTISTATICI_E_NON'
-          }
-        ],
         value: 'TESSUTI_PTFE'
       },
       {
@@ -134,6 +119,7 @@ export const subTrees: any = {
         value: 'ANTIADERENTI'
       },
     ],
+    order: 1,
     value: 'TESSUTI',
   }
 };

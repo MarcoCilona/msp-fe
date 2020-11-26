@@ -11,14 +11,15 @@ div
   .sections-shortcuts
     .sections-shortcuts__shortcut(v-for='(shortcut, index) in shorcutsList', :key='index', @click='handleProductClick(shortcut)')
       img(src='')
-      h5 {{ shortcut }}
-      p.sections-shortcuts__shortcut__description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt magna aliqua. Quis ipsum suspendisse ultrices gravida.
+      h5 {{ $t(`PRODUCTS.${shortcut}.LABEL`) }}
+      p.sections-shortcuts__shortcut__description {{ $t(`PRODUCTS.${shortcut}.CAPTION`) }}
   Usage.mt-20
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import Usage from '@/views/Home/Usage.vue';
+import { subTrees } from '@/dictionary/index';
 
 @Component({
   components: {
@@ -26,13 +27,35 @@ import Usage from '@/views/Home/Usage.vue';
   }
 })
 export default class Home extends Vue {
-  shorcutsList: string[] = ['Tessuti', 'Poliuretano', 'Gomme e materiali isolanti', 'Materie plastiche'];
   slide: number = 1;
+
+  get shorcutsList() {
+    console.log(this.sortKeys(subTrees));
+    return this.sortKeys(subTrees).map(({ value }) => value);
+  }
 
   handleProductClick(product: string) {
     this.$router.push({
       path: `/product/${product}`
     });
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  sortKeys(keys: any[]) {
+    const items: any[] = [];
+
+    Object.entries(keys).forEach((value) => {
+      items.push(value[1]);
+    });
+
+    const compare = (a: any, b: any) => {
+      if (a.order < b.order) return -1;
+      if (a.order > b.order) return 1;
+
+      return 0;
+    };
+
+    return items.sort(compare);
   }
 }
 </script>

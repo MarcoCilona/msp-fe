@@ -7,12 +7,6 @@
         "USAGES": "Applicazioni"
     },
     "PRODUCTS": {
-        "ADESIVI_E_NON": {
-            "ADVANTAGES": "",
-            "AREA": "",
-            "DESCRIPTION" :"Adesivi e non adesivi is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-            "LABEL": "Adesivi e non adesivi"
-        },
         "ANTISTATICI_E_NON": {
             "ADVANTAGES": "",
             "AREA" : "",
@@ -33,13 +27,14 @@
         },
         "PTFE_UHMW": {
             "ADVANTAGES": "",
-            "AREA" : "",
-            "DESCRIPTION" :"La gamma dei tessuti di vetro teflonati e siliconati è completata dal PTFE sfogliato adesivo, e dalla poliolefina (UHMW-PE) adesiva.\n\nQuesti due prodotti vantano entrambi un basso coefficiente di attrito e si distinguono per caratteristiche opposte: \n\t- resistenza ad alte temperature (fino a 260°C) e bassa resistenza meccanica per il PTFE \n\t- ottima resistenza all’usura e all’abrasione per la poliolefina, ma utilizzo a temperatura massima di 65°C in continuo.",
+            "AREA" : "\tRivestimento di scivoli, tramogge e di superfici che necessitano un’eccellente antiaderenza e un basso coefficiente di attrito.",
+            "DESCRIPTION" :"La gamma dei tessuti di vetro teflonati e siliconati è completata dal PTFE sfogliato adesivo, e dalla poliolefina (UHMW-PE) adesiva.\n\nQuesti due prodotti vantano entrambi un basso coefficiente di attrito e si distinguono per caratteristiche opposte: \n\t- resistenza ad alte temperature (fino a 260°C) e bassa resistenza meccanica per il PTFE \n\t- ottima resistenza all’usura e all’abrasione per la poliolefina, ma utilizzo a temperatura massima di 65°C in continuo. \n\nIl PTFE puro sfogliato è disponibile in diversi spessori in rotoli larghezza 1 metro o in bobine tagliate a richiesta; la poliolefina è disponibile in rotoli di larghezza massima 420 mm oppure in bobine tagliate a misura.",
             "LABEL": "PTFE e UHMW"
         },
         "TESSUTI": {
             "ADVANTAGES": "\t- superfici particolarmente antiaderenti\r\n\t- basso coefficiente di attrito\n\t- ottima resistenza al calore e al freddo (-73°C / +260°C)\n\t- ottima resistenza ad agenti chimici, contaminazioni batteriche, muffe\n\t- eccellente resistenza meccanica e dielettrica\n\t- atossicità\n\t- facilità di pulizia",
             "AREA" : "",
+            "CAPTION": "Tessuti di vetro teflonati, siliconati, PTFE sfogliato e UHMW-PE adesivi per applicazioni che richiedono antiaderenza e/o resistenza alle alte temperature",
             "DESCRIPTION" :"La ns. gamma comprende tessuti di vetro PTFE, tessuti di vetro siliconati, PTFE sfogliato adesivo, PTFE alta densità adesivo.\nQuesti materiali sono ampiamente utilizzati in tutte le applicazioni che richiedono particolare resistenza a temperatura unita ad eccellenti proprietà distaccanti.\nTutti i prodotti disponibili nella versione adesiva vengono forniti con un adesivo siliconico che garantisce a sua volta una notevole resistenza alle alte temperature.\nI tessuti di vetro PTFE, sia adesivi che non adesivi, sono disponibili anche nella versione antistatica per applicazioni in presenza di elettricità statica.",
             "LABEL": "Tessuti"
         },
@@ -50,8 +45,8 @@
             "LABEL": "Tessuti di vetro ptfe"
         },
         "SILICONATI": {
-            "ADVANTAGES": "- eccellenti proprietà distaccanti fino a +230° C\n\t- buona resistenza chimica a sostanze blandamente alcaline, acidi non ossidanti, la maggior parte dei sali, olio lubrificante minerale, aria, umidità e luce solare\n\t- superiore resistenza ad abrasione e flessibilità\n\t- elevata rigidità dielettrica.",
-            "AREA" : "",
+            "ADVANTAGES": "\t- eccellenti proprietà distaccanti fino a +230° C\n\t- buona resistenza chimica a sostanze blandamente alcaline, acidi non ossidanti, la maggior parte dei sali, olio lubrificante minerale, aria, umidità e luce solare\n\t- superiore resistenza ad abrasione e flessibilità\n\t- elevata rigidità dielettrica.",
+            "AREA" : "\t- tendine per tunnel di termoretrazione \n\t- fogli distaccanti per produzione materiali viscosi \n\t- superfici antiaderenti per produzione di espansi \n\t- isolamenti elettrici",
             "DESCRIPTION" :"I tessuti di vetro siliconati, pur non presentando superfici lisce e a basso coefficiente di attrito, proprie dei tessuti di vetro teflonati, offrono eccellenti proprietà distaccanti, anche per sostanze in grado di aderire al PTFE.\nSono solitamente disponibili da magazzino in rotoli di vari spessori nei colori bianco o rosso. Possiamo fornire anche rotoli in altezze su richiesta.",
             "LABEL": "Tessuti siliconati"
         },
@@ -106,6 +101,7 @@
         "POLIURETANO": {
             "ADVANTAGES": "",
             "AREA": "",
+            "CAPTION": "Poliuretano compatto altamente resistente ad usura ed abrasione, poliuretano espanso ammortizzante e antivibrante, racle per serigrafia",
             "DESCRIPTION": "TBD",
             "LABEL": "Poliuretano"
         },
@@ -118,6 +114,7 @@
         "GOMME_E_MATERIALI_ISOLANTI": {
             "ADVANTAGES": "",
             "AREA": "",
+            "CAPTION": "Gomme compatte ed espanse, tela e carta bakelizzata, stratificati in vetro e resina, isolanti termici in fibra di vetro",
             "DESCRIPTION": "TBD",
             "LABEL": "Gomme e materiali isolanti"
         },
@@ -178,6 +175,7 @@
         "MATERIE_PLASTICHE": {
             "ADVANTAGES": "",
             "AREA": "",
+            "CAPTION": "Polietilene HMW- e UHMW-HDPE, poliammidi, POM, PTFE, policarbonato e metacrilato, PVC espanso",
             "DESCRIPTION": "TBD",
             "LABEL": "Materie plastiche"
         },
@@ -209,7 +207,7 @@
             "ADVANTAGES": "\t- elevata resistenza all’urto \n\t- minimo rischio di rottura \n\t- leggerezza \n\t- eccellente resistenza agli agenti atmosferici \n\t- ottima trasmissione della luce \n\t- eccellente lavorabilità",
             "AREA": "",
             "DESCRIPTION": "Lastre in policarbonato\nLe lastre in policarbonato si distinguono principalmente per la resistenza alla rottura e alla temperatura che, unite all’ elevata trasparenza, ne suggeriscono l’impiego per la realizzazione di protezioni antinfortunistiche nel settore industriale.\nIl policarbonato può essere facilmente lavorato con attrezzature standard di officina ed è termoformabile.\nLe lastre in policarbonato vengono prodotte, oltre che nella versione standard, anche in versioni specifiche per applicazioni che richiedono particolare resistenza ai raggi UV, alla fiamma, all’abrasione.",
-            "LABEL": "Policarbonato (compatto e alveolare)"
+            "LABEL": "Policarbonato"
         },
         "METACRILATO": {
             "ADVANTAGES": "\t- elevata trasparenza ottica anche in alti spessori\n\t- resistenza ai raggi UV\n\t- leggerezza\n\t- ottima stabilità termica\n\t- basso assorbimento di acqua",
